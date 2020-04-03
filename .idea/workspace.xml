@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37531a42-744c-4b1b-b9c7-e5a2f110c5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register-server/src/main/java/com/hello/register/RegisterServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/register-server/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register-server/src/main/java/com/hello/register/RegisterServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -67,8 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="441">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/register-server/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -86,6 +92,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/register-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/register-server/.gitignore" />
       </list>
     </option>
   </component>
@@ -153,36 +160,6 @@
               <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
               <item name="register-server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="register-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="register-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="register-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="register-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -197,7 +174,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/register-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/register-server" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -285,16 +262,15 @@
       <updated>1585809287483</updated>
       <workItem from="1585809292171" duration="3515000" />
       <workItem from="1585880737058" duration="6942000" />
-      <workItem from="1585896812131" duration="2401000" />
+      <workItem from="1585896812131" duration="2653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12858000" />
+    <option name="totallyTimeSpent" value="13110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,7 +288,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -351,9 +327,6 @@
     <entry file="file://$PROJECT_DIR$/register-server/HELP.md" />
     <entry file="file://$PROJECT_DIR$/register-server/mvnw" />
     <entry file="file://$PROJECT_DIR$/register-server/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/register-server/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/register-server/src/test/java/com/hello/register/RegisterServerApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -376,17 +349,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register-server/src/main/java/com/hello/register/RegisterServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
