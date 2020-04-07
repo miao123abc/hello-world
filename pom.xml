@@ -17,6 +17,7 @@
 
     <modules>
         <module>register-server</module>
+        <module>zuul-server</module>
     </modules>
 
     <properties>
@@ -42,8 +43,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
         <dependency>
