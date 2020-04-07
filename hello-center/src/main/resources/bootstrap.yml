@@ -1,8 +1,8 @@
 server:
-  port: 8760
+  port: 9002
 spring:
   application:
-    name: zuul-server
+    name: hello-center
   profiles:
     active: dev
 

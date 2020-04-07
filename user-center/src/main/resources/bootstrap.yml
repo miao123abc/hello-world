@@ -1,8 +1,8 @@
 server:
-  port: 8760
+  port: 9001
 spring:
   application:
-    name: zuul-server
+    name: user-center
   profiles:
     active: dev
 

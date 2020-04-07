@@ -8,17 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>register-server</artifactId>
+    <artifactId>user-center</artifactId>
     <version>${parent.version}</version>
-    <name>register-server</name>
+    <name>user-center</name>
     <description>Demo project for Spring Boot</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>

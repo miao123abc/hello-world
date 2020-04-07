@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: register-server
+  security:
+    user:
+      name: root
+      password: 123456
   profiles:
     active: dev
 
