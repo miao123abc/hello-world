@@ -1,24 +1,10 @@
 package com.hello.hello.leetCode;
 
+import com.hello.hello.leetCode.domain.ListNode;
+
 import java.util.Arrays;
 
 public class MergeTwoLists0429 {
-
-    static class ListNode{
-        int val;
-        ListNode next;
-        ListNode(int x){
-            val = x;
-        }
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-    }
 
     /**
      * 将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。

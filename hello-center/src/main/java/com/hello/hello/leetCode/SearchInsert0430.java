@@ -102,6 +102,7 @@ public class SearchInsert0430 {
      * @return
      */
     public static String addBinary(String a, String b) {
+        //保证字符串a 长度是较长者
         if (a.length() < b.length()) return addBinary(b, a);
         int shortLength = b.length() - 1;
         int carry = 0;
