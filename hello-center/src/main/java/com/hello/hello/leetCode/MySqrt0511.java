@@ -2,16 +2,19 @@ package com.hello.hello.leetCode;
 
 import com.hello.hello.leetCode.domain.ListNode;
 
+import java.util.Arrays;
+
 public class MySqrt0511 {
 
     /**
      * 计算并返回 x 的平方根，其中 x 是非负整数。
-     *
+     * <p>
      * 由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。
+     *
      * @param x
      * @return
      */
-    public static int mySqrt(int x){
+    public static int mySqrt(int x) {
         //Math自带平方根方法 return (int) Math.sqrt(x);
 
         //2.二分查找
@@ -41,11 +44,12 @@ public class MySqrt0511 {
     }
 
     /**
-     假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
-
-     每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
-
-     注意：给定 n 是一个正整数。
+     * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+     * <p>
+     * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+     * <p>
+     * 注意：给定 n 是一个正整数。
+     *
      * @param n
      * @return
      */
@@ -62,6 +66,7 @@ public class MySqrt0511 {
 
     /**
      * 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+     *
      * @param head
      * @return
      */
@@ -74,6 +79,37 @@ public class MySqrt0511 {
         return head;
     }
 
+    /**
+     * 给你两个有序整数数组 nums1 和 nums2，请你将 nums2 合并到 nums1 中，使 nums1 成为一个有序数组。
+     *
+     * @param nums1 原数组
+     * @param m     原数组长度
+     * @param nums2 合并数组
+     * @param n     合并数组长度
+     */
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+        //反着比较 由于原数组长度足够 比较后直接将大值放入合并后数组中
+        int i = m-1;
+        int j = n-1;
+        int k = m+n-1;
+        while(i>=0 || j>=0) {
+            //注意两个边界条件，i<0以及j<0，这表示一个数组已经拷贝完了
+            if (i < 0){
+                nums1[k--] = nums2[j--];
+            }else if (j < 0){
+                nums1[k--] = nums1[i--];
+            }else if (nums1[i] <= nums2[j]){
+                nums1[k--] = nums2[j--];
+            }else {
+                nums1[k--] = nums1[i--];
+            }
+        }
+
+        //数组合并，然后排序
+//        System.arraycopy(nums2, 0, nums1, m, n);
+//        Arrays.sort(nums1);
+    }
+
     public static void main(String[] args) {
 //        System.out.println(mySqrt(16));
 
@@ -83,5 +119,9 @@ public class MySqrt0511 {
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(1);
         System.out.println(deleteDuplicates(listNode));
+
+        int[] ints = {2, 5, 6, 0, 0, 0};
+        merge(ints, 3, new int[]{1, 2, 3}, 3);
+        System.out.println("ints = " + Arrays.toString(ints));
     }
 }

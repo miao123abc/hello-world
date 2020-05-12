@@ -1,4 +1,4 @@
-package com.hello.hello.test;
+package com.hello.hello.dailyTest;
 
 import lombok.Data;
 
