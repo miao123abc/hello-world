@@ -1,8 +1,8 @@
 package com.hello.hello.leetCode.domain;
 
-import lombok.Data;
-
-@Data
+/**
+ * 基本链表结构
+ */
 public class ListNode {
     public int val;
     public ListNode next;
