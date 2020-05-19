@@ -2,8 +2,7 @@ package com.hello.hello.leetCode;
 
 import com.hello.hello.leetCode.domain.TreeNode;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Tree0512 {
 
@@ -54,6 +53,111 @@ public class Tree0512 {
         return true;
     }
 
+    /**
+     * 给定一个二叉树，找出其最大深度。
+     * 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
+     *
+     * 说明: 叶子节点是指没有子节点的节点。
+     * @param root
+     * @return
+     */
+    public static int maxDepth(TreeNode root) {
+        if (null == root) return 0;
+        int maxLeft = maxDepth(root.left);
+        int maxRight = maxDepth(root.right);
+        return Math.max(maxLeft, maxRight) + 1;
+    }
+
+    /**
+     * 给定一个二叉树，找出其最小深度。
+     *
+     * 最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
+     * @param root
+     * @return
+     */
+    public static int minDepth(TreeNode root) {
+        if (null == root) return 0;
+        int leftDepth = minDepth(root.left);
+        int rightDepth = minDepth(root.right);
+        if (root.left == null || root.right == null) return leftDepth + rightDepth + 1;
+        return Math.min(leftDepth, rightDepth) + 1;
+    }
+
+    /**
+     * 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
+     * @param root 二叉树
+     * @return
+     */
+    public static List<List<Integer>> levelOrderBottom(TreeNode root) {
+        ArrayList<List<Integer>> resultList = new ArrayList<>();
+        if (null == root) return resultList;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            ArrayList<Integer> integers = new ArrayList<>();
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                integers.add(Objects.requireNonNull(node).val);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null){
+                    queue.add(node.right);
+                }
+            }
+            resultList.add(0, integers);
+        }
+        return resultList;
+    }
+
+    /**
+     * 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。
+     *
+     * 本题中，一个高度平衡二叉树是指一个二叉树每个节点 的左右两个子树的高度差的绝对值不超过 1。
+     * @param nums
+     * @return
+     */
+    public TreeNode sortedArrayToBST(int[] nums) {
+        return binaryJoin(0, nums.length - 1, nums);
+    }
+
+    //中序遍历 递归从下往上返回各个节点 组成二叉树
+    private TreeNode binaryJoin(int left, int right, int[] nums){
+        if (left > right) return null;
+        int median = (left + right) / 2;
+        TreeNode treeNode = new TreeNode(nums[median]);
+        treeNode.left = binaryJoin(left, median - 1, nums);
+        treeNode.right = binaryJoin(median + 1, right, nums);
+        return treeNode;
+    }
+
+    /**
+     *给定一个二叉树，判断它是否是高度平衡的二叉树。
+     * @param root [1,2,2,3,null,null,3,4,null,null,4]
+     * @return
+     */
+    public static boolean isBalanced(TreeNode root) {
+        if (null == root) return true;
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
+        return Math.abs(left - right) <= 1 && isBalanced(root.left) && isBalanced(root.right);
+    }
+
+    /**
+     * 给定一个二叉树和一个目标和，判断该树中是否存在根节点到叶子节点的路径，这条路径上所有节点值相加等于目标和。
+     * @param root 根节点
+     * @param sum 目标和
+     * @return
+     */
+    public static boolean hasPathSum(TreeNode root, int sum) {
+        if (null == root) return false;
+        sum -= root.val;
+        //到此叶子节点 检查是否刚好sum为0
+        if (root.left == null && root.right == null) return sum == 0;
+        return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
+    }
+
     public static void main(String[] args) {
         TreeNode p = new TreeNode(2);
         p.left = new TreeNode(3);
@@ -70,11 +174,21 @@ public class Tree0512 {
 
         TreeNode q = new TreeNode(1);
         q.left = new TreeNode(2);
+        q.left.left = new TreeNode(3);
         q.right = new TreeNode(4);
 
         System.out.println("两个二叉树 是否相同： " + isSameTree(p, q));
 
         System.out.println("是否镜像对称： " + isSymmetric(p));
+
+        System.out.println("二叉树 最大深度：" + maxDepth(q));
+        System.out.println("二叉树 最小深度：" + minDepth(q));
+
+        System.out.println("自底向上的层次遍历：" + levelOrderBottom(q));
+
+        System.out.println("是否是高度平衡的二叉树：" + isBalanced(q));
+
+        System.out.println("根节点到叶子节点路径和 是否满足目标值：" + hasPathSum(q, 3));
     }
 
 }
