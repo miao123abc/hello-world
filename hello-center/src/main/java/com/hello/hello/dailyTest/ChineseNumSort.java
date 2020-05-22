@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class aaa {
+public class ChineseNumSort {
     public static void main(String[] args) throws IOException {
         char a = '一';//a='汗权';
         System.out.println("a = " + a);

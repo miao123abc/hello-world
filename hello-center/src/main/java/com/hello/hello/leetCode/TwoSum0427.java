@@ -1,6 +1,6 @@
 package com.hello.hello.leetCode;
 
-import java.util.HashMap;
+import java.util.Arrays;
 
 class TwoSum0427 {
 
@@ -11,14 +11,23 @@ class TwoSum0427 {
      * @return
      */
     public static int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int subNum = target - nums[i];
-            if (hashMap.containsKey(subNum)) {
-                return new int[]{i, hashMap.get(subNum)};
-            }
-            hashMap.put(nums[i], i);
+        //双指针 注意：数组必须升序排列后
+        int left = 0, right = nums.length - 1;
+        while (left < right){
+            if (target == nums[left] + nums[right])
+                return new int[]{left + 1, right + 1};
+            else if (target < nums[left] + nums[right]) right--;
+            else left++;
         }
+        //借用map空间
+//        HashMap<Integer, Integer> hashMap = new HashMap<>();
+//        for (int i = 0; i < nums.length; i++) {
+//            int subNum = target - nums[i];
+//            if (hashMap.containsKey(subNum)) {
+//                return new int[]{i, hashMap.get(subNum)};
+//            }
+//            hashMap.put(nums[i], i);
+//        }
 //        for(int i = 0; i < nums.length; i++){
 //            for(int j = i + 1; j < nums.length; j++){
 //                if(nums[i] + nums[j] == target){
@@ -82,11 +91,11 @@ class TwoSum0427 {
     }
 
     public static void main(String[] args) {
-//        int[] ints = twoSum(new int[]{3, 2, 4}, 6);
-//        System.out.println("ints = " + Arrays.toString(ints));
+        int[] ints = twoSum(new int[]{2, 3, 4}, 6);
+        System.out.println("ints = " + Arrays.toString(ints));
 
-//        int reverse = reverse(994748399);
-//        System.out.println("reverse = " + reverse);
+        int reverse = reverse(994748399);
+        System.out.println("reverse = " + reverse);
 
         boolean palindrome = isPalindrome(1221);
         System.out.println("palindrome = " + palindrome);
