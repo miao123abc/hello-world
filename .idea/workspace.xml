@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37531a42-744c-4b1b-b9c7-e5a2f110c5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Binary0522.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Array0521.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Array0521.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MergeTwoLists0429.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt0428.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Rule0519.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Rule0519.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/SearchInsert0430.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/String0520.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/String0520.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/StructureListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/StructureListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/TwoSum0427.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,84 +38,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Array0521.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/StructureListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/String0520.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-              <folding>
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Binary0522.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Rule0519.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="183" column="5" lean-forward="true" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,9 +86,6 @@
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/TwoSum.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Solution.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt0428.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/SearchInsert0430.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MergeTwoLists0429.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/MergeSort.java" />
@@ -170,14 +94,17 @@
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/aaa.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Tree0512.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/ChineseNumSort.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/TwoSum0427.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Binary0522.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Rule0519.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Array0521.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/StructureListNode.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/TwoSum0427.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt0428.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MergeTwoLists0429.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/SearchInsert0430.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/String0520.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Rule0519.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/StructureListNode.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Array0521.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java" />
       </list>
     </option>
   </component>
@@ -235,8 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -598,6 +525,8 @@
       <workItem from="1590025965072" duration="49000" />
       <workItem from="1590027749133" duration="22289000" />
       <workItem from="1590114343529" duration="23046000" />
+      <workItem from="1590371469988" duration="188000" />
+      <workItem from="1590374334957" duration="5433000" />
     </task>
     <servers />
   </component>
@@ -634,13 +563,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270734000" />
+    <option name="totallyTimeSpent" value="276355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5694143" visible="true" weight="0.19083156" />
-      <window_info id="Structure" order="1" sideWeight="0.43058568" side_tool="true" visible="true" weight="0.19083156" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.566129" visible="true" weight="0.19509594" />
+      <window_info id="Structure" order="1" sideWeight="0.43387097" side_tool="true" visible="true" weight="0.19509594" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50179213" side_tool="true" weight="0.18923241" />
       <window_info id="Image Layers" order="4" />
@@ -655,7 +584,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -892,9 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt0428.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -948,16 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MergeTwoLists0429.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -965,34 +881,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/SearchInsert0430.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/HelloStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="35" column="38" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Tree0512.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1054,22 +946,63 @@
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/ListNode.java" />
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/TwoSum0427.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        <state relative-caret-position="420">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt0428.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MergeTwoLists0429.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/SearchInsert0430.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Tree0512.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1218">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Binary0522.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Rule0519.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="183" column="5" lean-forward="true" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
+        <state relative-caret-position="515">
+          <caret line="301" column="21" selection-start-line="301" selection-start-column="21" selection-end-line="301" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1078,46 +1011,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Array0521.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="1235">
+          <caret line="199" column="20" lean-forward="true" selection-start-line="199" selection-start-column="20" selection-end-line="199" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/MySqrt0511.java">
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/String0520.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="3927">
+          <caret line="187" column="58" lean-forward="true" selection-start-line="187" selection-start-column="58" selection-end-line="187" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/StructureListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="-10">
+          <caret line="131" column="27" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        <state relative-caret-position="903">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/String0520.java">
+    <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-199">
+          <caret line="90" column="46" lean-forward="true" selection-start-line="90" selection-start-column="46" selection-end-line="90" selection-end-column="46" />
         </state>
       </provider>
     </entry>

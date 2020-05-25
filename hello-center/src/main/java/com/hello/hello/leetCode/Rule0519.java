@@ -134,6 +134,40 @@ public class Rule0519 {
     }
 
     /**
+     * 给定一个罗马数字，将其转换成整数。输入确保在 1 到 3999 的范围内。
+     * @param s
+     * @return
+     */
+    public int romanToInt(String s) {
+        int sum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            char right = 'a';
+            if (i + 1 < s.length()) {
+                right = s.charAt(i + 1);
+            }
+            int swicth;
+            switch (c){
+                case 'I': swicth = 1; break;
+                case 'V': swicth = 5; break;
+                case 'X': swicth = 10; break;
+                case 'L': swicth = 50; break;
+                case 'C': swicth = 100; break;
+                case 'D': swicth = 500; break;
+                case 'M': swicth = 1000; break;
+                default:  swicth = 0; break;
+            }
+            if ((c == 'I' && (right == 'V' || right == 'X')) ||
+                    (c == 'X' && (right == 'L' || right == 'C')) ||
+                    (c == 'C' && (right == 'D' || right == 'M'))) {
+                swicth = -swicth;
+            }
+            sum += swicth;
+        }
+        return sum;
+    }
+
+    /**
      *
      给定一个大小为 n 的数组，找到其中的多数元素。多数元素是指在数组中出现次数大于 ⌊ n/2 ⌋ 的元素。
      你可以假设数组是非空的，并且给定的数组总是存在多数元素。
@@ -181,5 +215,98 @@ public class Rule0519 {
 //            zeroCount++;
 //        }
 //        return zeroCount;
+    }
+
+    /**
+     * 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
+     * @param x
+     * @return
+     */
+    public int reverse(int x) {
+        int y = 0;
+        while (x != 0){
+            if (y > Integer.MAX_VALUE / 10 || y < Integer.MIN_VALUE / 10) {
+                return 0;
+            }
+            y = y * 10 + x % 10;
+            x = x / 10;
+        }
+        return y;
+//        if(x == Integer.MIN_VALUE) return 0;
+//        int abs = Math.abs(x);
+//        StringBuilder stringBuilder = new StringBuilder(abs + "");
+//        long parseLong = Long.parseLong(stringBuilder.reverse().toString());
+//        long result = x < 0 ? -parseLong : parseLong;
+//        if (parseLong > Integer.MAX_VALUE || parseLong < Integer.MIN_VALUE) {
+//            return 0;
+//        }
+//        return (int)result;
+    }
+
+    /**
+     * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+     * @param x 整数
+     * @return
+     */
+    public boolean isPalindrome(int x) {
+        if (x < 0 || (x % 10 == 0 && x !=0)) return false;
+        String str = String.valueOf(x);
+        int left = 0;
+        int right = str.length() - 1;
+        while (left <= right){
+            if (str.charAt(left++) != str.charAt(right--))
+                return false;
+        }
+        return true;
+//        int reverse = 0;
+//        while (x > reverse){
+//            reverse = reverse * 10 + x % 10;
+//            x /= 10;
+//        }
+//        return x == reverse || x == reverse / 10;
+
+//        String str = new StringBuilder(String.valueOf(x)).reverse().toString();
+//        return str.equals(String.valueOf(x));
+    }
+
+    /**
+     * 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
+     *
+     * 最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。
+     *
+     * 你可以假设除了整数 0 之外，这个整数不会以零开头。
+     * @param digits
+     * @return
+     */
+    public int[] plusOne(int[] digits) {
+        if (null == digits || digits.length == 0) return null;
+        for (int i = digits.length - 1; i >= 0; i--) {
+            digits[i]++;
+            if (0 != (digits[i] %= 10)) return digits;
+        }
+        digits = new int[digits.length + 1];
+        digits[0] = 1;
+        return digits;
+    }
+
+    /**
+     * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+     * <p>
+     * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+     * <p>
+     * 注意：给定 n 是一个正整数。
+     *
+     * @param n
+     * @return
+     */
+    public int climbStairs(int n) {
+        if (n == 1) return 1;
+        int first = 1, second = 2;
+        for (int i = 3; i <= n; i++) {
+            int thrid = first + second;
+            first = second;
+            second = thrid;
+        }
+        return second;
     }
 }

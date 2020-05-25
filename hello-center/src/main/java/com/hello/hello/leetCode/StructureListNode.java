@@ -89,6 +89,55 @@ public class StructureListNode {
         return res.next;
     }
 
+    /**
+     * 将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
+     * @param l1
+     * @param l2
+     * @return
+     */
+    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode listNode = new ListNode(-1);
+        ListNode preNode = listNode;
+        while (null != l1 && null != l2){
+            if (l1.val <= l2.val){
+                preNode.next = l1;
+                l1 = l1.next;
+            }else {
+                preNode.next = l2;
+                l2 = l2.next;
+            }
+            preNode = preNode.next;
+        }
+        preNode.next = null == l1 ? l2 : l1;
+        return listNode.next;
+
+//        递归比较 拼接，直到最后较短链表结束，返回拼接后的链表
+//        if (l2 == null) return l1;
+//        if (l1 == null) return l2;
+//        if (l1.val <= l2.val){
+//            l1.next = mergeTwoLists(l1.next, l2);
+//            return l1;
+//        }else {
+//            l2.next = mergeTwoLists(l1, l2.next);
+//            return l2;
+//        }
+    }
+
+    /**
+     * 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+     *
+     * @param head
+     * @return
+     */
+    public static ListNode deleteDuplicates(ListNode head) {
+        ListNode curNode = head;
+        while (curNode != null && curNode.next != null) {
+            if (curNode.val != curNode.next.val) curNode = curNode.next;
+            else curNode.next = curNode.next.next;
+        }
+        return head;
+    }
+
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
@@ -107,5 +156,21 @@ public class StructureListNode {
         listNode2.next = new ListNode(3);
         listNode.next.next = new ListNode(2);
         System.out.println("删除给定值后：" + removeElements(listNode1, 3));
+
+        ListNode listNode3 = new ListNode(1);
+        listNode3.next = new ListNode(2);
+        listNode3.next.next = new ListNode(4);
+
+        ListNode listNode4 = new ListNode(1);
+        listNode4.next = new ListNode(3);
+        listNode4.next.next = new ListNode(4);
+
+        ListNode resListNode = mergeTwoLists(listNode3, listNode4);
+        System.out.println("resListNode = " + resListNode);
+
+        ListNode listNode5 = new ListNode(1);
+        listNode5.next = new ListNode(2);
+        listNode5.next.next = new ListNode(1);
+        System.out.println(deleteDuplicates(listNode5));
     }
 }
