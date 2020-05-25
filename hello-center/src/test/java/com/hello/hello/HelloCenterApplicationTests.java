@@ -1,9 +1,6 @@
 package com.hello.hello;
 
-import com.hello.hello.leetCode.Array0521;
-import com.hello.hello.leetCode.Rule0519;
-import com.hello.hello.leetCode.String0520;
-import com.hello.hello.leetCode.Tree0512;
+import com.hello.hello.leetCode.*;
 import com.hello.hello.leetCode.sort.IArraySort;
 import com.hello.hello.leetCode.sort.MergeSort;
 import org.junit.Test;
@@ -57,6 +54,8 @@ public class HelloCenterApplicationTests {
         System.out.println("是否是回文串：" + string0520.isPalindrome("A man, a plan, a canal: Panama"));
 
         System.out.println("单独数字：" + string0520.singleNumber(new int[]{1, 2, 1}));
+
+        System.out.println("两个字符串是否同构：" + string0520.isIsomorphic("ab", "aa"));
     }
 
     @Test
@@ -66,6 +65,21 @@ public class HelloCenterApplicationTests {
         int[] ints = {1, 2, 3};
         array0521.rotate(ints, 4);
         System.out.println("数组向右移动后：" + Arrays.toString(ints));
+
+        System.out.println("能够偷窃到的最高金额: " + array0521.rob(new int[]{2,1,1,2}));
     }
 
+    @Test
+    public void testBinary(){
+        Binary0522 binary0522 = new Binary0522();
+
+        System.out.println("汉明重量：" + binary0522.hanmingWeight(11));
+    }
+
+    @Test
+    public void testSqrt(){
+        MySqrt0511 mySqrt0511 = new MySqrt0511();
+
+        System.out.println("是否为快乐数：" + mySqrt0511.isHappy(19));
+    }
 }
