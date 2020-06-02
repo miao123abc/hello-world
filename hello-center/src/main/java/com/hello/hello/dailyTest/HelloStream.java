@@ -1,11 +1,9 @@
 package com.hello.hello.dailyTest;
 
+import com.alibaba.fastjson.JSONArray;
 import lombok.Data;
 
-import java.util.AbstractMap;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class HelloStream {
@@ -39,6 +37,20 @@ public class HelloStream {
                                         Collectors.toList())));
         System.out.println("langPersons = " + langPersons);
         langPersons.entrySet().forEach(System.out::println);
+
+        ArrayList<Object> list = new ArrayList<>();
+        list.add("http://fableedu.oss-cn-beijing.aliyuncs.com/app/gang/image/202004/art_1587439270543456_720_1280.jpg");
+        list.add("9c377bfa479646d8b3f67ee7206824a7");
+
+        JSONArray teacherVideo = new JSONArray(list);
+        Optional<Object> any = teacherVideo.stream().filter(
+                json -> !json.toString().contains(".jpg")
+        ).findAny();
+        if(any.isPresent()){
+            String string = any.get().toString();
+            System.out.println("string = " + string);
+        }
+
     }
 
 }
