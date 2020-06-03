@@ -23,7 +23,7 @@ public class MergeSort implements IArraySort {
         return merge(sort(left), sort(right));
     }
 
-    protected int[] merge(int[] left, int[] right) {
+    private int[] merge(int[] left, int[] right) {
         int[] result = new int[left.length + right.length];
         int i = 0;
         while (left.length > 0 && right.length > 0) {

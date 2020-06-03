@@ -1,8 +1,7 @@
 package com.hello.hello;
 
 import com.hello.hello.leetCode.*;
-import com.hello.hello.leetCode.sort.IArraySort;
-import com.hello.hello.leetCode.sort.MergeSort;
+import com.hello.hello.leetCode.sort.*;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -17,10 +16,28 @@ public class HelloCenterApplicationTests {
 
     @Test
     public void contextLoads() {
-        IArraySort mergeSort = new MergeSort();
-        int[] sourseArray = {1,5,6,3,2,7};
-        int[] sortArray = mergeSort.sort(sourseArray);
-        System.out.println("sortArray = " + Arrays.toString(sortArray));
+        int[] sourceArray = {8, 2, 5, 9, 7};
+        //冒泡
+        IArraySort bubbleSort = new Bubble01();
+        int[] sort1 = bubbleSort.sort(sourceArray);
+
+        //选择
+        IArraySort selectionSort = new Selection02();
+        int[] sort2 = selectionSort.sort(sourceArray);
+
+        //插入
+        IArraySort insert03 = new Insert03();
+        int[] sort3 = insert03.sort(sourceArray);
+
+        //希尔
+        IArraySort shell04 = new Shell04();
+        int[] sort4 = shell04.sort(sourceArray);
+
+        //归并排序
+//        IArraySort mergeSort = new MergeSort();
+//        int[] sort2 = mergeSort.sort(sourceArray);
+
+        System.out.println("排序后 sort = " + Arrays.toString(sort4));
     }
 
     @Test
