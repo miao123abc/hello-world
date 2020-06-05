@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37531a42-744c-4b1b-b9c7-e5a2f110c5ad" name="Default Changelist" comment="" />
+    <list default="true" id="37531a42-744c-4b1b-b9c7-e5a2f110c5ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Heap07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Quick06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Merge05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/register-server/target/" />
@@ -41,48 +50,48 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="399">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java">
+        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="672">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Insert03.java">
+        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Merge05.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="21">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Quick06.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="546">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java">
+        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Heap07.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="273">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -90,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="735">
+              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -127,7 +136,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/register-server/src/main/java/com/hello/register/RegisterServerApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/register-server/.gitignore" />
         <option value="$PROJECT_DIR$/zuul-server/src/test/java/com/hello/zuul/ZuulServerApplicationTests.java" />
         <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/hello/zuul/ZuulServerApplication.java" />
@@ -148,7 +156,6 @@
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/Solution.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/RomanToInt.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/domain/ListNode.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/domain/TreeNode.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/aaa.java" />
@@ -170,8 +177,15 @@
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Insert03.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Merge05.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Quick06.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Heap07.java" />
       </list>
     </option>
   </component>
@@ -229,6 +243,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,16 +295,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="dailyTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,8 +312,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,20 +391,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructureListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hello.hello.leetCode.StructureListNode" />
-      <module name="hello-center" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.hello.leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -435,6 +425,23 @@
       <option name="PACKAGE_NAME" value="com.hello.hello" />
       <option name="MAIN_CLASS_NAME" value="com.hello.hello.HelloCenterApplicationTests" />
       <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloCenterApplicationTests.testTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hello.hello" />
+      <option name="MAIN_CLASS_NAME" value="com.hello.hello.HelloCenterApplicationTests" />
+      <option name="METHOD_NAME" value="testTree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -518,11 +525,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StructureListNode" />
       <item itemvalue="Application.HelloStream" />
       <item itemvalue="Application.ChineseNumSort" />
       <item itemvalue="JUnit.HelloCenterApplicationTests.testString" />
       <item itemvalue="JUnit.HelloCenterApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.HelloCenterApplicationTests.testTree" />
       <item itemvalue="Spring Boot.RegisterServerApplication" />
       <item itemvalue="Spring Boot.UserCenterApplication" />
       <item itemvalue="Spring Boot.UserCenter2" />
@@ -532,10 +539,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HelloCenterApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.HelloCenterApplicationTests.testTree" />
         <item itemvalue="Application.HelloStream" />
         <item itemvalue="Application.ChineseNumSort" />
         <item itemvalue="JUnit.HelloCenterApplicationTests.testString" />
-        <item itemvalue="Application.StructureListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -585,50 +592,53 @@
       <workItem from="1590631197753" duration="239000" />
       <workItem from="1590745414544" duration="1466000" />
       <workItem from="1591075032998" duration="1013000" />
-      <workItem from="1591162265640" duration="15608000" />
+      <workItem from="1591162265640" duration="16353000" />
+      <workItem from="1591236294478" duration="21977000" />
+      <workItem from="1591321885687" duration="70000" />
+      <workItem from="1591326023093" duration="6870000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 15h 28m 59s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 15h 22m 47s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 15h 29m 24s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 16h 28m 35s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 15h 32m 48s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 16h 52m 16s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 15h 39m 17s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 08m 15s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 15h 44m 21s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 10m 13s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 16h 51m 59s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 13m 13s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 16h 52m 24s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 14m 12s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 16h 59m 49s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 14m 19s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 17h 44m 08s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 21m 47s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.03 at 17h 47m 35s.xml">
+    <history-entry file="HelloCenterApplicationTests_contextLoads - 2020.06.04 at 17h 44m 48s.xml">
       <configuration name="HelloCenterApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307141000" />
+    <option name="totallyTimeSpent" value="336803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56073755" visible="true" weight="0.20788912" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55748373" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="1" sideWeight="0.43913713" side_tool="true" weight="0.20788912" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50179213" side_tool="true" weight="0.18923241" />
@@ -636,7 +646,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" sideWeight="0.43926248" side_tool="true" weight="0.20788912" />
+      <window_info id="Web" order="8" sideWeight="0.44251627" side_tool="true" visible="true" weight="0.21215352" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29609543" />
@@ -687,6 +697,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="Math.random()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hello_world_parent$RomanToInt0428.ic" NAME="RomanToInt0428 Coverage Results" MODIFIED="1588068100519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -694,93 +709,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="68" column="47" lean-forward="true" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6111">
-          <caret line="328" column="7" selection-start-line="328" selection-start-column="7" selection-end-line="328" selection-end-column="7" />
-          <folding>
-            <element signature="e#12004#12005#0" expanded="true" />
-            <element signature="e#12044#12045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="111" column="19" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
-          <folding>
-            <element signature="e#2838#2839#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="622" selection-start-line="622" selection-end-line="622" />
-          <folding>
-            <element signature="e#22821#22822#0" expanded="true" />
-            <element signature="e#66457#66458#0" expanded="true" />
-            <element signature="e#66495#66496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1427" column="25" selection-start-line="1427" selection-start-column="25" selection-end-line="1427" selection-end-column="25" />
-          <folding>
-            <element signature="e#46227#46228#0" expanded="true" />
-            <element signature="e#46266#46267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="263" column="66" lean-forward="true" selection-start-line="263" selection-start-column="66" selection-end-line="263" selection-end-column="66" />
-          <folding>
-            <element signature="e#10365#10366#0" expanded="true" />
-            <element signature="e#10392#10393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -1018,48 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-center/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1067,17 +953,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Insert03.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Insert03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Merge05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/hello/HelloCenterApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/IArraySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Heap07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Quick06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -33,11 +33,15 @@ public class HelloCenterApplicationTests {
         IArraySort shell04 = new Shell04();
         int[] sort4 = shell04.sort(sourceArray);
 
-        //归并排序
-//        IArraySort mergeSort = new MergeSort();
-//        int[] sort2 = mergeSort.sort(sourceArray);
+        //归并
+        IArraySort merge05 = new Merge05();
+        int[] sort5 = merge05.sort(sourceArray);
 
-        System.out.println("排序后 sort = " + Arrays.toString(sort4));
+        //快排
+        IArraySort quick06 = new Quick06();
+        int[] sort6 = quick06.sort(sourceArray);
+
+        System.out.println("排序后 sort = " + Arrays.toString(sort6));
     }
 
     @Test

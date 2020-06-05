@@ -3,7 +3,7 @@ package com.hello.hello.leetCode.sort;
 import java.util.Arrays;
 
 /**
- * 希尔排序：缩小增量排序，
+ * 希尔排序：缩小增量排序（类似增量排序）
  */
 public class Shell04 implements IArraySort {
 
@@ -18,19 +18,19 @@ public class Shell04 implements IArraySort {
     @Override
     public int[] sort(int[] sourceArray) {
         int[] copy = Arrays.copyOf(sourceArray, sourceArray.length);
-        int gap = copy.length;
+        //定义增量
+        int gap = copy.length / 2;
         while (gap > 0){
-            //计算增量空间
-            gap /= 2;
             for (int i = gap; i < copy.length; i++) {
                 int curValue = copy[i];
                 int j = i - gap;
-                while (j >= 0 && copy[j] > curValue){
+                while (j >= 0 && curValue < copy[j]){
                     copy[j + gap] = copy[j];
                     j -= gap;
                 }
                 copy[j + gap] = curValue;
             }
+            gap /= 2;
         }
         return copy;
     }

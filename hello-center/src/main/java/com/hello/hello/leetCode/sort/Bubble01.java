@@ -14,9 +14,7 @@ public class Bubble01 implements IArraySort{
             boolean stop = true;
             for (int j = 0; j < copyArray.length - i - 1; j++) {
                 if (copyArray[j] > copyArray[j + 1]){
-                    int temp = copyArray[j];
-                    copyArray[j] = copyArray[j + 1];
-                    copyArray[j + 1] = temp;
+                    IArraySort.swap1(copyArray, j, j + 1);
                     stop = false;
                 }
                 count++;

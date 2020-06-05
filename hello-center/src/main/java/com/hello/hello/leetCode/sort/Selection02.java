@@ -14,6 +14,7 @@ public class Selection02 implements IArraySort {
      */
     @Override
     public int[] sort(int[] sourceArray) {
+        if (sourceArray.length < 2) return sourceArray;
         int[] copy = Arrays.copyOf(sourceArray, sourceArray.length);
         for (int i = 0; i < copy.length - 1; i++) {
             //剩余最小值所在的索引
