@@ -45,6 +45,21 @@ public class String0520 {
     }
 
     /**
+     * 给定两个字符串 s 和 t，它们只包含小写字母。
+     * 字符串 t 由字符串 s 随机重排，然后在随机位置添加一个字母。
+     *
+     * 请找出在 t 中被添加的字母。
+     */
+    public char findTheDifference(String s, String t) {
+        String str = s + t;
+        char c = str.charAt(0);
+        for (char c1 : str.toCharArray()) {
+            c ^= c1;
+        }
+        return c;
+    }
+
+    /**
      * 给定两个字符串 s 和 t，判断它们是否是同构的。
      * 如果 s 中的字符可以被替换得到 t ，那么这两个字符串是同构的。
      * 所有出现的字符都必须用另一个字符替换，同时保留字符的顺序。两个字符不能映射到同一个字符上，但字符可以映射自己本身。
@@ -146,6 +161,55 @@ public class String0520 {
                 return i;
         }
         return -1;
+    }
+
+    /**
+     * 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
+     */
+    public int firstUniqChar(String s) {
+//        int[] ints = new int[26];
+//        for (int i = 0; i < s.length(); i++) {
+//            ints[s.charAt(i) - 'a']++;
+//        }
+//        for (int i = 0; i < s.length(); i++) {
+//            if (ints[s.charAt(i) - 'a'] == 1) return i;
+//        }
+//        return -1;
+
+        //利用indexOf / lastIndexOf 方法比较
+        for(int i = 0; i < s.length(); i++){
+            char c = s.charAt(i);
+            if(s.indexOf(c + "") == s.lastIndexOf(c + ""))
+                return i;
+        }
+        return -1;
+    }
+
+    /**
+     * 给定一个赎金信 (ransom) 字符串和一个杂志(magazine)字符串，判断第一个字符串 ransom 能不能由第二个字符串 magazines 里面的字符构成。
+     * 如果可以构成，返回 true ；否则返回 false。
+     *
+     * (题目说明：为了不暴露赎金信字迹，要从杂志上搜索各个需要的字母，组成单词来表达意思。杂志字符串中的每个字符只能在赎金信字符串中使用一次。)
+     */
+    public boolean canConstruct(String ransomNote, String magazine) {
+        //利用indexOf(String str, int fromIndex)方法
+        StringBuilder builder = new StringBuilder(magazine);
+        int[] caps = new int[26];
+        for (char c : ransomNote.toCharArray()) {
+            int index = builder.indexOf(String.valueOf(c), caps[c - 'a']);
+            if (index == -1) return false;
+            caps[c - 'a'] = index + 1;
+        }
+        return true;
+
+        //利用StringBuilder删除已经匹配的字符
+//        StringBuilder builder = new StringBuilder(magazine);
+//        for (char c : ransomNote.toCharArray()) {
+//            int index = builder.indexOf(String.valueOf(c));
+//            if (index == -1) return false;
+//            builder.deleteCharAt(index);
+//        }
+//        return true;
     }
 
     /**
