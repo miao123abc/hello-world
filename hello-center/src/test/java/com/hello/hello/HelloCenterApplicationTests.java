@@ -2,6 +2,7 @@ package com.hello.hello;
 
 import com.hello.hello.leetCode.*;
 import com.hello.hello.leetCode.domain.ListNode;
+import com.hello.hello.leetCode.domain.TreeNode;
 import com.hello.hello.leetCode.sort.*;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -169,8 +170,12 @@ public class HelloCenterApplicationTests {
     @Test
     public void testTree(){
         Tree0512 tree0512 = new Tree0512();
+
         int[] ints = {-10,-3,0,5,9};
         System.out.println("有序数组 -> 高度平衡二叉搜索树：" + tree0512.sortedArrayToBST(ints));
+
+        TreeNode treeNode = tree0512.buildTree(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
+        System.out.println("由前序和中序构建的 treeNode = " + treeNode);
     }
 
 }

@@ -158,6 +158,29 @@ public class Tree0512 {
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
     }
 
+    /**
+     * 根据一棵树的前序遍历与中序遍历构造二叉树。
+     * 注意: 你可以假设树中没有重复的元素。
+     */
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        if(inorder.length == 0 || preorder.length != inorder.length) return null;
+        /*
+        preorder第一个元素为root，在inorder里面找到root，在它之前的为左子树（长l1），之后为右子树（长l2）。
+         preorder[1]到preorder[l1]为左子树,之后为右子树，分别递归。
+         */
+        TreeNode treeNode = new TreeNode(preorder[0]);
+        for (int i = 0; i < preorder.length; i++) {
+            if (preorder[0] == inorder[i]) {
+                treeNode.left = buildTree(Arrays.copyOfRange(preorder, 1, i + 1),
+                        Arrays.copyOfRange(inorder, 0, i));
+                treeNode.right = buildTree(Arrays.copyOfRange(preorder, i + 1, preorder.length),
+                        Arrays.copyOfRange(inorder, i + 1, inorder.length));
+                break;
+            }
+        }
+        return treeNode;
+    }
+
     public static void main(String[] args) {
         TreeNode p = new TreeNode(2);
         p.left = new TreeNode(3);
