@@ -1,4 +1,4 @@
-package com.hello.hello.dailyTest;
+package com.hello.demo.daily;
 
 import com.alibaba.fastjson.JSONArray;
 import lombok.Data;

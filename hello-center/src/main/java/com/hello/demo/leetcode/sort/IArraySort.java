@@ -1,6 +1,7 @@
-package com.hello.hello.leetCode.sort;
+package com.hello.demo.leetcode.sort;
 
 //@Service
+@FunctionalInterface
 public interface IArraySort {
 
     int[] sort(int[] sourceArray);

@@ -1,4 +1,4 @@
-package com.hello.hello.leetCode.domain;
+package com.hello.demo.leetcode.domain;
 
 /**
  * 基本链表结构

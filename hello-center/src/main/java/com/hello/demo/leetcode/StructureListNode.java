@@ -1,6 +1,6 @@
-package com.hello.hello.leetCode;
+package com.hello.demo.leetcode;
 
-import com.hello.hello.leetCode.domain.ListNode;
+import com.hello.demo.leetcode.domain.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

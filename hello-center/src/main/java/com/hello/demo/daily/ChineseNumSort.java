@@ -1,4 +1,4 @@
-package com.hello.hello.dailyTest;
+package com.hello.demo.daily;
 
 import java.io.IOException;
 import java.util.Arrays;

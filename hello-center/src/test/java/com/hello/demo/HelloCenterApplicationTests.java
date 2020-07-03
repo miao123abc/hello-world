@@ -1,9 +1,9 @@
-package com.hello.hello;
+package com.hello.demo;
 
-import com.hello.hello.leetCode.*;
-import com.hello.hello.leetCode.domain.ListNode;
-import com.hello.hello.leetCode.domain.TreeNode;
-import com.hello.hello.leetCode.sort.*;
+import com.hello.demo.leetcode.*;
+import com.hello.demo.leetcode.domain.ListNode;
+import com.hello.demo.leetcode.domain.TreeNode;
+import com.hello.demo.leetcode.sort.*;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

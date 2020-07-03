@@ -1,6 +1,6 @@
-package com.hello.hello.leetCode;
+package com.hello.demo.leetcode;
 
-import com.hello.hello.leetCode.domain.TreeNode;
+import com.hello.demo.leetcode.domain.TreeNode;
 
 import java.util.*;
 
