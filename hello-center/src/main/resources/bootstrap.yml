@@ -13,3 +13,5 @@ eureka:
       register-with-eureka: true
       fetch-registry: true
 
+logging:
+  level: info
