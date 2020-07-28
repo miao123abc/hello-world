@@ -1,8 +1,8 @@
 server:
-  port: 9002
+  port: 9000
 spring:
   application:
-    name: hello-center
+    name: commons-center
   profiles:
     active: dev
 

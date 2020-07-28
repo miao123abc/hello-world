@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37531a42-744c-4b1b-b9c7-e5a2f110c5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/MyPageHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/PageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/CodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons-center/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/MyPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/MyPageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/PageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/PageConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/CodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/util/GenOrderCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/utils/GenOrderCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/zuul-server/target/" />
     <ignored path="$PROJECT_DIR$/user-center/target/" />
     <ignored path="$PROJECT_DIR$/hello-center/target/" />
+    <ignored path="$PROJECT_DIR$/commons-center/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,30 +56,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/service/OrderService.java">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/CommonsCenterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/PageConfig.java">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/utils/GenOrderCodeUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/CodeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/Result.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
+            <state relative-caret-position="21">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,19 +104,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/CodeEnum.java">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/R.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/MyPageHelper.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/PageConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="945">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/MyPageHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons-center/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -129,6 +180,7 @@
       <find>生成订单号</find>
       <find>contains</find>
       <find>min</find>
+      <find>ClassNot</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -140,12 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/HelloStream.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Insert03.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Shell04.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Selection02.java" />
@@ -181,16 +227,22 @@
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkDistributedLock.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/service/OrderService.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkAbstractLock.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/TestDistributed.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/ChineseNumSort.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/ThreadPoolExecutorDemo.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/MyPageHelper.java" />
-        <option value="$PROJECT_DIR$/hello-center/pom.xml" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/Result.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/CodeEnum.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/Result.java" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/String0520.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/PageConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/commons-center/src/test/java/com/hello/commons/CommonsCenterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hello-center/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/commons-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/R.java" />
+        <option value="$PROJECT_DIR$/commons-center/pom.xml" />
       </list>
     </option>
   </component>
@@ -213,23 +265,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hello-world-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hello-world-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.zookeeper:zookeeper:3.4.6" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -247,6 +288,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,54 +300,206 @@
             <path>
               <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="register-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="register-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="register-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="register-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="user-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +510,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commons-center/src/main/resources" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -329,16 +524,20 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hello.commons" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hello.commons.entity" />
       <recent name="com.hello.demo.annotation" />
       <recent name="com.hello.hello.leetCode.sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\hello-world-parent\commons-center\src\main\resources" />
       <recent name="D:\ideaProject\hello-world-parent\hello-center\src\main\java\com\hello\demo" />
       <recent name="D:\ideaProject\hello-world-parent\hello-center\src\main\resources" />
       <recent name="D:\ideaProject\hello-world-parent\user-center\src\main\resources" />
       <recent name="D:\ideaProject\hello-world-parent\zuul-server\src\main\resources" />
-      <recent name="D:\ideaProject\hello-world-parent\register-server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,7 +552,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolExecutorDemo">
+  <component name="RunManager" selected="Application.String0520">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -367,6 +566,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hello.demo.daily.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String0520" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hello.demo.leetcode.String0520" />
+      <module name="hello-center" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.demo.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,26 +635,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributedTests.testOrderCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-center" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hello.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.hello.demo.DistributedTests" />
-      <option name="METHOD_NAME" value="testOrderCode" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <configuration name="CommonsCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="commons-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.commons.CommonsCenterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -520,20 +723,21 @@
       <item itemvalue="Application.TestDistributed" />
       <item itemvalue="Application.ChineseNumSort" />
       <item itemvalue="Application.ThreadPoolExecutorDemo" />
-      <item itemvalue="JUnit.DistributedTests.testOrderCode" />
+      <item itemvalue="Application.String0520" />
       <item itemvalue="Spring Boot.RegisterServerApplication" />
       <item itemvalue="Spring Boot.UserCenterApplication" />
       <item itemvalue="Spring Boot.UserCenter2" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
       <item itemvalue="Spring Boot.HelloCenterApplication" />
+      <item itemvalue="Spring Boot.CommonsCenterApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.String0520" />
         <item itemvalue="Application.ThreadPoolExecutorDemo" />
         <item itemvalue="Application.ChineseNumSort" />
         <item itemvalue="Application.TestDistributed" />
         <item itemvalue="Application.ZkAbstractLock" />
-        <item itemvalue="JUnit.DistributedTests.testOrderCode" />
       </list>
     </recent_temporary>
   </component>
@@ -623,7 +827,13 @@
       <workItem from="1594775039386" duration="172000" />
       <workItem from="1594775928763" duration="11318000" />
       <workItem from="1594876703311" duration="1820000" />
-      <workItem from="1594886287155" duration="984000" />
+      <workItem from="1594886287155" duration="1046000" />
+      <workItem from="1594952021025" duration="3933000" />
+      <workItem from="1594962603388" duration="67000" />
+      <workItem from="1595380492533" duration="3133000" />
+      <workItem from="1595395792945" duration="1427000" />
+      <workItem from="1595398815394" duration="50000" />
+      <workItem from="1595916269916" duration="264000" />
     </task>
     <servers />
   </component>
@@ -660,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505469000" />
+    <option name="totallyTimeSpent" value="514405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,10 +883,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54772234" visible="true" weight="0.22814499" />
-      <window_info id="Structure" order="1" sideWeight="0.45227766" side_tool="true" visible="true" weight="0.22814499" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54338396" visible="true" weight="0.24147122" />
+      <window_info id="Structure" order="1" sideWeight="0.45661604" side_tool="true" weight="0.23880596" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50179213" side_tool="true" weight="0.18923241" />
       <window_info id="Image Layers" order="4" />
@@ -686,7 +895,7 @@
       <window_info id="Web" order="8" sideWeight="0.44251627" side_tool="true" weight="0.2153518" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.335141" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,7 +914,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -797,244 +1006,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.3-beta/zookeeper-3.5.3-beta.jar!/org/apache/zookeeper/common/ZKConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.3-beta/zookeeper-3.5.3-beta.jar!/org/apache/zookeeper/ZooKeeper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/hello/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/hello/zuul/ZuulServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkClientUtil.java" />
-    <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/demo/DistributedTests.java" />
-    <entry file="file://$PROJECT_DIR$/hello-center/src/test/java/com/hello/demo/HelloCenterApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/ZkClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="726" selection-start-line="726" selection-end-line="726" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/util/GenOrderCodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/org/apache/zookeeper/Watcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/TestDistributed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/DistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkAbstractLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkDistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.1.3/micrometer-core-1.1.3.jar!/io/micrometer/shaded/org/pcollections/PCollection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.List">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.List</OriginalElement>
-          <nodes>
-            <node x="96.0" y="162.0">java.util.List</node>
-            <node x="15.5" y="81.0">java.util.Collection</node>
-            <node x="0.0" y="162.0">java.util.Set</node>
-            <node x="25.5" y="0.0">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.Set" target="java.util.Collection">
-              <point x="0.0" y="-15.5" />
-              <point x="38.0" y="137.0" />
-              <point x="52.0" y="137.0" />
-              <point x="-36.5" y="15.5" />
-            </edge>
-            <edge source="java.util.List" target="java.util.Collection">
-              <point x="0.0" y="-15.5" />
-              <point x="139.0" y="137.0" />
-              <point x="125.0" y="137.0" />
-              <point x="36.5" y="15.5" />
-            </edge>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-413.0" y="-98.0" />
-          <SelectedNodes>
-            <node>java.util.List</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5095">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="717" column="20" selection-start-line="717" selection-start-column="20" selection-end-line="717" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="317" column="27" lean-forward="true" selection-start-line="317" selection-start-column="27" selection-end-line="317" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="836" column="30" selection-start-line="836" selection-start-column="30" selection-end-line="836" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="438" column="36" selection-start-line="438" selection-start-column="36" selection-end-line="438" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="410" column="32" lean-forward="true" selection-start-line="410" selection-start-column="32" selection-end-line="410" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="5002" column="32" selection-start-line="5002" selection-start-column="32" selection-end-line="5002" selection-end-column="32" />
-          <folding>
-            <element signature="e#223144#223145#0" expanded="true" />
-            <element signature="e#223197#223198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/ThreadWaitNotifyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1228,41 +1199,308 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Array0521.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3832">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Binary0522.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/MySqrt0511.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Rule0519.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5680">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/StructureListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2530">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Tree0512.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/ReflectiveOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/String0520.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.ClassNotFoundException">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.ClassNotFoundException</OriginalElement>
+          <nodes>
+            <node x="581.25" y="81.0">java.lang.Throwable</node>
+            <node x="697.5" y="243.0">java.lang.StackOverflowError</node>
+            <node x="880.5" y="162.0">java.lang.Error</node>
+            <node x="316.0" y="324.0">java.lang.NumberFormatException</node>
+            <node x="30.0" y="324.0">java.lang.ClassNotFoundException</node>
+            <node x="471.5" y="243.0">java.lang.RuntimeException</node>
+            <node x="0.0" y="243.0">java.lang.ReflectiveOperationException</node>
+            <node x="592.0" y="324.0">java.lang.ClassCastException</node>
+            <node x="943.5" y="243.0">java.lang.OutOfMemoryError</node>
+            <node x="340.25" y="162.0">java.lang.Exception</node>
+            <node x="566.25" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.ReflectiveOperationException" target="java.lang.Exception">
+              <point x="0.0" y="-15.5" />
+              <point x="163.0" y="218.0" />
+              <point x="374.25" y="218.0" />
+              <point x="-34.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.OutOfMemoryError" target="java.lang.Error">
+              <point x="0.0" y="-15.5" />
+              <point x="1046.5" y="218.0" />
+              <point x="952.5" y="218.0" />
+              <point x="24.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.RuntimeException" target="java.lang.Exception">
+              <point x="0.0" y="-15.5" />
+              <point x="574.5" y="218.0" />
+              <point x="442.25" y="218.0" />
+              <point x="34.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.Error" target="java.lang.Throwable">
+              <point x="0.0" y="-15.5" />
+              <point x="928.5" y="137.0" />
+              <point x="683.25" y="137.0" />
+              <point x="34.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.ClassNotFoundException" target="java.lang.ReflectiveOperationException">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.Exception" target="java.lang.Throwable">
+              <point x="0.0" y="-15.5" />
+              <point x="408.25" y="137.0" />
+              <point x="615.25" y="137.0" />
+              <point x="-34.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.ClassCastException" target="java.lang.RuntimeException">
+              <point x="0.0" y="-15.5" />
+              <point x="705.0" y="299.0" />
+              <point x="626.0" y="299.0" />
+              <point x="51.5" y="15.5" />
+            </edge>
+            <edge source="java.lang.Throwable" target="java.io.Serializable">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.StackOverflowError" target="java.lang.Error">
+              <point x="0.0" y="-15.5" />
+              <point x="810.5" y="218.0" />
+              <point x="904.5" y="218.0" />
+              <point x="-24.0" y="15.5" />
+            </edge>
+            <edge source="java.lang.NumberFormatException" target="java.lang.RuntimeException">
+              <point x="0.0" y="-15.5" />
+              <point x="444.0" y="299.0" />
+              <point x="523.0" y="299.0" />
+              <point x="-51.5" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="-17.0" />
+          <SelectedNodes>
+            <node>java.lang.RuntimeException</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/ClassNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/CheckboxMenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="468" column="22" selection-start-line="468" selection-start-column="22" selection-end-line="468" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/hello/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/test/java/com/hello/commons/CommonsCenterApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/hello-center/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="441">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/PageConfig.java">
+    <entry file="file://$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <caret line="10" column="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/Result.java">
+    <entry file="file://$PROJECT_DIR$/user-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/CommonsCenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/utils/GenOrderCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/MyPageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/PageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/entity/CodeEnum.java">
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/CodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/annotation/MyPageHelper.java">
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="336">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

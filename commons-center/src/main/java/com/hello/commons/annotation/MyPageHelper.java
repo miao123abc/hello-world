@@ -1,4 +1,4 @@
-package com.hello.demo.annotation;
+package com.hello.commons.annotation;
 
 import java.lang.annotation.*;
 

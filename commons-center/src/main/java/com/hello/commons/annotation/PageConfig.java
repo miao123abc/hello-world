@@ -1,9 +1,9 @@
-package com.hello.demo.annotation;
+package com.hello.commons.annotation;
 
 import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.hello.demo.entity.Result;
+import com.hello.commons.entity.Result;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -20,7 +20,7 @@ import java.util.List;
 @Component
 public class PageConfig {
 
-    @Around("@annotation(com.hello.demo.annotation.MyPageHelper)")
+    @Around("@annotation(com.hello.commons.annotation.MyPageHelper)")
     public Result around(ProceedingJoinPoint joinPoint) throws Throwable {
         Method method = getMethod(joinPoint);
         MyPageHelper annotation = method.getAnnotation(MyPageHelper.class);
@@ -49,7 +49,7 @@ public class PageConfig {
         Result result = (Result) joinPoint.proceed();
         Object data = result.getData();
         if (data instanceof List) {
-            PageInfo pageInfo = new PageInfo<>((List) data);
+            PageInfo<List> pageInfo = new PageInfo<>((List) data);
             hashMap.put("totalCount", pageInfo.getTotal());
             hashMap.put("totalPageCount", pageInfo.getPages());
             hashMap.put("info", data);
@@ -61,7 +61,7 @@ public class PageConfig {
     private Method getMethod(ProceedingJoinPoint joinPoint) throws NoSuchMethodException {
         Signature signature = joinPoint.getSignature();
         if (!(signature instanceof MethodSignature)) {
-            throw new RuntimeException("注解只能用户方法！");
+            throw new RuntimeException("注解只能用于方法！");
         }
         MethodSignature methodSignature = (MethodSignature) signature;
         return joinPoint.getTarget().getClass().getMethod(methodSignature.getName(), methodSignature.getParameterTypes());

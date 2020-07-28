@@ -1,4 +1,4 @@
-package com.hello.demo.util;
+package com.hello.commons.utils;
 
 public class GenOrderCodeUtil {
 

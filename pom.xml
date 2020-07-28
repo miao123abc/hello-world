@@ -19,6 +19,7 @@
         <module>register-server</module>
         <module>zuul-server</module>
         <module>user-center</module>
+        <module>commons-center</module>
     </modules>
 
     <properties>

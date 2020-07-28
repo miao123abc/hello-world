@@ -2,7 +2,7 @@ package com.hello.demo.service;
 
 import com.hello.demo.distributed_lock.DistributedLock;
 import com.hello.demo.distributed_lock.ZkDistributedLock;
-import com.hello.demo.util.GenOrderCodeUtil;
+import com.hello.commons.utils.GenOrderCodeUtil;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
