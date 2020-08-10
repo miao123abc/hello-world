@@ -1,8 +1,8 @@
 package com.hello.demo.juc;
 
-import java.util.Date;
-import java.util.Timer;
-import java.util.TimerTask;
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
+
+import java.util.*;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +10,8 @@ public class ThreadPoolExecutorDemo {
 
     public static void main(String[] args) {
 //        timerTest();
-        executorTest();
+//        executorTest();
+        shutdownTest(Arrays.asList(1,3,8));
     }
 
     /** 多个timer 其中一个异常，其他也会终止 */
@@ -80,5 +81,17 @@ public class ThreadPoolExecutorDemo {
 
     }
 
+    private static void shutdownTest(List<Integer> times){
+        ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(times.size(),
+                new ThreadFactoryBuilder().setNameFormat("product-shelf-pool-%d").build());
+        executor.setMaximumPoolSize(times.size());
+        try {
+            for (Integer time : times)
+                executor.schedule(() ->
+                        System.out.println(Thread.currentThread().getName()), time, TimeUnit.SECONDS);
+        } finally {
+            executor.shutdown();
+        }
+    }
 
 }
