@@ -9,17 +9,16 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hello</groupId>
-    <artifactId>hello-world-parent</artifactId>
+    <artifactId>hello-world</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hello-world-parent</name>
+    <name>hello-world</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>register-server</module>
-        <module>zuul-server</module>
-        <module>user-center</module>
-        <module>commons-center</module>
+        <module>hello-commons</module>
+        <module>hello</module>
+        <module>hello-user</module>
     </modules>
 
     <properties>

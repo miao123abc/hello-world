@@ -4,40 +4,31 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.hello</groupId>
-        <artifactId>hello-world-parent</artifactId>
+        <artifactId>hello-world</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>commons-center</artifactId>
+    <artifactId>hello-user</artifactId>
     <version>${parent.version}</version>
-    <name>commons-center</name>
+    <name>hello-user</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper-spring-boot-starter</artifactId>
-            <version>1.2.10</version>
+            <groupId>com.hello</groupId>
+            <artifactId>hello-commons</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.3.5</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

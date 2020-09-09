@@ -5,19 +5,19 @@
 
     <parent>
         <groupId>com.hello</groupId>
-        <artifactId>hello-world-parent</artifactId>
+        <artifactId>hello-world</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>hello-center</artifactId>
+    <artifactId>hello</artifactId>
     <version>${parent.version}</version>
-    <name>hello-center</name>
+    <name>hello</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
             <groupId>com.hello</groupId>
-            <artifactId>commons-center</artifactId>
+            <artifactId>hello-commons</artifactId>
             <version>${parent.version}</version>
         </dependency>
         <dependency>
