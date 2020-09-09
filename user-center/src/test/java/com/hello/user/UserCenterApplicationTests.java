@@ -1,13 +1,26 @@
 package com.hello.user;
 
+import com.hello.user.component.SMSComponent;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
-class UserCenterApplicationTests {
+public class UserCenterApplicationTests {
+
+    @Autowired
+    private SMSComponent smsComponent;
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
+    }
+
+    @Test
+    public void testSms(){
+        smsComponent.sendSMSCode("211", "23");
     }
 
 }
