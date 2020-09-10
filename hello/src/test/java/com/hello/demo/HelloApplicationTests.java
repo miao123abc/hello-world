@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SpringBootTest
-public class HelloCenterApplicationTests {
+public class HelloApplicationTests {
 
 //    @Autowired
 //    private IArraySort iArraySort;

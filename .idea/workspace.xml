@@ -2,71 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37531a42-744c-4b1b-b9c7-e5a2f110c5ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/commons-center/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/CommonsCenterApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/MyPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/annotation/MyPageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/annotation/PageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/annotation/PageConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/CodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/java/com/hello/commons/utils/GenOrderCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/utils/GenOrderCodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-center/src/test/java/com/hello/commons/CommonsCenterApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hello/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/HelloCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloCenterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/ChineseNumSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/daily/ChineseNumSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/HelloStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/daily/HelloStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/TestDistributed.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/daily/TestDistributed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/DistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/DistributedLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkAbstractLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/ZkAbstractLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/distributed_lock/ZkDistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/ZkDistributedLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/juc/DeadLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/SaleTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/juc/SaleTickets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/juc/ThreadPoolExecutorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/ThreadWaitNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/juc/ThreadWaitNotifyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/jvm/JvmDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/jvm/JvmDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Array0521.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Array0521.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Binary0522.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Binary0522.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/MySqrt0511.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/MySqrt0511.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Rule0519.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Rule0519.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/String0520.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/String0520.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/StructureListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/StructureListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Tree0512.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Tree0512.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/domain/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/domain/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/domain/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/domain/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Bubble01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Bubble01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Heap07.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Heap07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/IArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/IArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Insert03.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Insert03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Merge05.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Merge05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Quick06.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Quick06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Selection02.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Selection02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/sort/Shell04.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Shell04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-center/src/test/java/com/hello/demo/HelloCenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/test/java/com/hello/demo/HelloCenterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/UserCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/HelloUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-user/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-user/src/test/java/com/hello/user/UserCenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/test/java/com/hello/user/HelloUserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/test/java/com/hello/demo/HelloCenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/test/java/com/hello/demo/HelloApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/src/main/java/com/hello/register/RegisterServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-server/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/java/com/hello/user/UserCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/UserCenterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/java/com/hello/user/component/SMSComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/component/SMSComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/java/com/hello/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/java/com/hello/user/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/resources/rebel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/test/java/com/hello/user/UserCenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-user/src/test/java/com/hello/user/UserCenterApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/hello/zuul/ZuulServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/src/test/java/com/hello/zuul/ZuulServerApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,37 +61,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hello-user/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state>
+              <caret selection-start-line="1" selection-start-column="32" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/annotation/MyPageHelper.java">
+        <entry file="file://$PROJECT_DIR$/hello-user/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="84">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-user/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3780">
-              <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
+            <state relative-caret-position="210">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -151,37 +90,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state relative-caret-position="597">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloCenterApplication.java">
+        <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/ZkAbstractLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-commons/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/ZkDistributedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="84">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/hello/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -215,6 +154,7 @@
       <find>contains</find>
       <find>min</find>
       <find>ClassNot</find>
+      <find>java.version</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -226,15 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Quick06.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/leetCode/sort/Bubble01.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/ThreadPoolExtucterDemo.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/hello/dailyTest/ThreadPoolExecutorDemo.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/dailyTest/ThreadPoolExecutorDemo.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/leetcode/Array0521.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/daily/ThreadPoolExecutorDemo.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/jvm/jvmDemo.java" />
-        <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/jvm/JvmDemo.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/SaleTickets.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/ThreadWaitNotifyDemo.java" />
         <option value="$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/juc/DeadLockDemo.java" />
@@ -273,9 +204,18 @@
         <option value="$PROJECT_DIR$/commons-center/pom.xml" />
         <option value="$PROJECT_DIR$/user-center/pom.xml" />
         <option value="$PROJECT_DIR$/hello-center/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-user/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/component/SMSComponent.java" />
+        <option value="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/HelloUserApplication.java" />
+        <option value="$PROJECT_DIR$/hello-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/hello-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-user/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloCenterApplication.java" />
+        <option value="$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloApplication.java" />
+        <option value="$PROJECT_DIR$/hello/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hello-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hello/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hello/pom.xml" />
       </list>
     </option>
@@ -300,7 +240,30 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hello-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.101tec:zkclient:0.10" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.101tec:zkclient:0.10" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.zookeeper:zookeeper:3.4.8" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -328,7 +291,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,17 +336,79 @@
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed_lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world" type="462c0819:PsiDirectoryNode" />
               <item name="hello-user" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +419,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello/src/main/resources" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -420,11 +444,11 @@
       <recent name="com.hello.hello.leetCode.sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\hello-world\hello\src\main\resources" />
       <recent name="D:\ideaProject\hello-world-parent\commons-center\src\main\resources" />
       <recent name="D:\ideaProject\hello-world-parent\hello-center\src\main\java\com\hello\demo" />
       <recent name="D:\ideaProject\hello-world-parent\hello-center\src\main\resources" />
       <recent name="D:\ideaProject\hello-world-parent\user-center\src\main\resources" />
-      <recent name="D:\ideaProject\hello-world-parent\zuul-server\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,74 +463,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelloCenterApplication">
+  <component name="RunManager" selected="Spring Boot.HelloApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChineseNumSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hello.demo.daily.ChineseNumSort" />
-      <module name="hello" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.demo.daily.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SaleTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hello.demo.juc.SaleTickets" />
-      <module name="hello" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.demo.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hello.demo.juc.ThreadPoolExecutorDemo" />
-      <module name="hello" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.demo.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserCenterApplicationTests.testSms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hello.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hello.user" />
-      <option name="MAIN_CLASS_NAME" value="com.hello.user.UserCenterApplicationTests" />
-      <option name="METHOD_NAME" value="testSms" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -565,31 +530,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonsCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hello-commons" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.commons.CommonsCenterApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="HelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hello" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.demo.HelloCenterApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.demo.HelloApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="HelloUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.user.UserCenterApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <additionalParameters>
-        <param>
-          <option name="enabled" value="true" />
-          <option name="name" value="server.port" />
-          <option name="value" value="9001" />
-        </param>
-      </additionalParameters>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.user.HelloUserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -613,20 +569,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChineseNumSort" />
-      <item itemvalue="Application.ThreadPoolExecutorDemo" />
-      <item itemvalue="Application.SaleTickets" />
-      <item itemvalue="JUnit.UserCenterApplicationTests.testSms" />
-      <item itemvalue="Spring Boot.UserCenterApplication" />
-      <item itemvalue="Spring Boot.HelloCenterApplication" />
-      <item itemvalue="Spring Boot.CommonsCenterApplication" />
+      <item itemvalue="Spring Boot.HelloUserApplication" />
+      <item itemvalue="Spring Boot.HelloApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserCenterApplicationTests.testSms" />
-        <item itemvalue="Application.SaleTickets" />
-        <item itemvalue="Application.ThreadPoolExecutorDemo" />
-        <item itemvalue="Application.ChineseNumSort" />
+        <item itemvalue="Spring Boot.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -742,7 +690,8 @@
       <workItem from="1599542875203" duration="4921000" />
       <workItem from="1599620044003" duration="891000" />
       <workItem from="1599621098059" duration="1268000" />
-      <workItem from="1599622984687" duration="1184000" />
+      <workItem from="1599622984687" duration="4392000" />
+      <workItem from="1599704852624" duration="1214000" />
     </task>
     <servers />
   </component>
@@ -779,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546627000" />
+    <option name="totallyTimeSpent" value="551049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,7 +743,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5323077" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5323077" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" sideWeight="0.46769232" side_tool="true" weight="0.4979592" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50179213" side_tool="true" weight="0.18923241" />
@@ -805,7 +754,7 @@
       <window_info id="Web" order="8" sideWeight="0.44251627" side_tool="true" weight="0.2153518" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.335141" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -916,87 +865,7 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/String0520.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4704">
-          <caret line="227" column="22" selection-start-line="227" selection-start-column="22" selection-end-line="227" selection-end-column="22" />
-          <folding>
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Array0521.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Binary0522.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/MySqrt0511.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Rule0519.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/Tree0512.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="661" column="16" selection-start-line="661" selection-start-column="16" selection-end-line="661" selection-end-column="16" />
-          <folding>
-            <element signature="e#23678#23679#0" expanded="true" />
-            <element signature="e#23731#23732#0" expanded="true" />
-            <element signature="e#24181#24182#0" expanded="true" />
-            <element signature="e#24234#24235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/data_structures/ArrayQueueDemo.java" />
     <entry file="file://$PROJECT_DIR$/hello-center/src/main/java/com/hello/demo/data_structures/CircleArrayQueueDemo.java" />
-    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/leetcode/sort/Shell04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1088,73 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/UserCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/src/test/java/com/hello/user/UserCenterApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/test/java/com/hello/demo/HelloCenterApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register-server/src/main/java/com/hello/register/RegisterServerApplication.java" />
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/hello/zuul/ZuulServerApplication.java" />
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/zuul-server/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/component/SMSComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register-server/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/daily/ChineseNumSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1163,13 +969,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/daily/HelloStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1183,33 +982,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3780">
-          <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/CommonsCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-commons/src/test/java/com/hello/commons/CommonsCenterApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/CommonsCenterApplication.java" />
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/resources/bootstrap.yml" />
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/test/java/com/hello/commons/CommonsCenterApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/annotation/MyPageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1220,42 +998,187 @@
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-commons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/daily/HelloStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-user/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/entity/CodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="441">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloCenterApplication.java">
+    <entry file="file://$PROJECT_DIR$/hello-commons/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/test/java/com/hello/demo/HelloApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="252">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/test/java/com/hello/user/HelloUserApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/annotation/Aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-commons/src/main/java/com/hello/commons/annotation/PageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/HelloUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/util/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/component/SMSComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/main/java/com/hello/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-line="1" selection-start-column="32" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/ZkDistributedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/distributed_lock/ZkAbstractLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/src/main/java/com/hello/demo/HelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="597">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>
