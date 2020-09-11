@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: hello-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: baiduTest
+          uri: http://www.baidu.com
+          predicates:
+# 请求参数包含baid.(正则)的断言路由：例http://localhost:8888/s?url=baidu会直接路由到配置的uri
+            - Query=param,baid.

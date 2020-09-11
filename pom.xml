@@ -20,6 +20,7 @@
         <module>hello</module>
         <module>hello-user</module>
         <module>hello-item</module>
+        <module>hello-gateway</module>
     </modules>
 
     <properties>
