@@ -1,6 +1,6 @@
 package com.hello.item.controller;
 
-import com.hello.commons.entity.R;
+import com.hello.commons.utils.R;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.hello.commons.entity;
+package com.hello.commons.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
