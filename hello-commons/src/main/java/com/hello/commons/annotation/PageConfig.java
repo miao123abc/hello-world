@@ -3,7 +3,7 @@ package com.hello.commons.annotation;
 import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.hello.commons.entity.Result;
+import com.hello.commons.domain.R;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -21,7 +21,7 @@ import java.util.List;
 public class PageConfig {
 
     @Around("@annotation(com.hello.commons.annotation.MyPageHelper)")
-    public Result around(ProceedingJoinPoint joinPoint) throws Throwable {
+    public R around(ProceedingJoinPoint joinPoint) throws Throwable {
         Method method = getMethod(joinPoint);
         MyPageHelper annotation = method.getAnnotation(MyPageHelper.class);
         int page = annotation.page();
@@ -46,14 +46,14 @@ public class PageConfig {
         PageHelper.startPage(page, pageSize);
         HashMap<Object, Object> hashMap = new HashMap<>(16);
         //执行目标方法
-        Result result = (Result) joinPoint.proceed();
+        R result = (R) joinPoint.proceed();
         Object data = result.getData();
         if (data instanceof List) {
             PageInfo<List> pageInfo = new PageInfo<>((List) data);
             hashMap.put("totalCount", pageInfo.getTotal());
             hashMap.put("totalPageCount", pageInfo.getPages());
             hashMap.put("info", data);
-            return Result.success(hashMap);
+            return R.ok().setData(hashMap);
         }
         return result;
     }

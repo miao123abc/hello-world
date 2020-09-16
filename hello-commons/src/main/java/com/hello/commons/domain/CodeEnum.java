@@ -1,4 +1,4 @@
-package com.hello.commons.exception;
+package com.hello.commons.domain;
 
 import lombok.Getter;
 
@@ -21,7 +21,11 @@ import lombok.Getter;
  *  *  22: 库存
  **/
 @Getter
-public enum BizCodeEnum {
+public enum CodeEnum {
+
+    SUCCESS(0,"success"),
+
+    BASIC_EXCEPTION(500,"系统繁忙,请稍后重试"),
 
     UNKNOWN_EXCEPTION(10000,"系统未知异常"),
 
@@ -46,7 +50,7 @@ public enum BizCodeEnum {
 
     private String msg;
 
-    BizCodeEnum(int code, String msg){
+    CodeEnum(int code, String msg){
         this.code = code;
         this.msg = msg;
     }

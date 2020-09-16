@@ -1,7 +1,7 @@
 package com.hello.item.controller;
 
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
+import com.hello.commons.domain.R;
 import com.hello.item.entity.CategoryBrandRelationEntity;
 import com.hello.item.service.CategoryBrandRelationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,7 @@ public class CategoryBrandRelationController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = categoryBrandRelationService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok();
     }
 
 
@@ -45,7 +45,7 @@ public class CategoryBrandRelationController {
     public R info(@PathVariable("id") Long id){
 		CategoryBrandRelationEntity categoryBrandRelation = categoryBrandRelationService.getById(id);
 
-        return R.ok().put("categoryBrandRelation", categoryBrandRelation);
+        return R.ok();
     }
 
     /**

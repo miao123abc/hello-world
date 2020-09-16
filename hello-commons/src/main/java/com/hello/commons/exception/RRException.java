@@ -8,6 +8,8 @@
 
 package com.hello.commons.exception;
 
+import com.hello.commons.domain.CodeEnum;
+
 /**
  * 自定义异常
  *
@@ -17,7 +19,7 @@ public class RRException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 	
     private String msg;
-    private int code = 500;
+    private int code = CodeEnum.BASIC_EXCEPTION.getCode();
     
     public RRException(String msg) {
 		super(msg);

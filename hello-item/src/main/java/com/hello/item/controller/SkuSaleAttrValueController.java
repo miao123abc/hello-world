@@ -1,7 +1,7 @@
 package com.hello.item.controller;
 
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
+import com.hello.commons.domain.R;
 import com.hello.item.entity.SkuSaleAttrValueEntity;
 import com.hello.item.service.SkuSaleAttrValueService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,7 @@ public class SkuSaleAttrValueController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = skuSaleAttrValueService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok(page);
     }
 
 
@@ -45,7 +45,7 @@ public class SkuSaleAttrValueController {
     public R info(@PathVariable("id") Long id){
 		SkuSaleAttrValueEntity skuSaleAttrValue = skuSaleAttrValueService.getById(id);
 
-        return R.ok().put("skuSaleAttrValue", skuSaleAttrValue);
+        return R.ok(skuSaleAttrValue);
     }
 
     /**

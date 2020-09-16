@@ -1,7 +1,7 @@
 package com.hello.item.controller;
 
+import com.hello.commons.domain.R;
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
 import com.hello.item.entity.CategoryEntity;
 import com.hello.item.service.CategoryService;
 import org.slf4j.Logger;
@@ -39,7 +39,7 @@ public class CategoryController {
     public R listTree() {
         List<CategoryEntity> categoryEntities = categoryService.listTree();
 
-        return R.ok().put("data", categoryEntities);
+        return R.ok(categoryEntities);
     }
 
     /**
@@ -50,7 +50,7 @@ public class CategoryController {
     public R list(@RequestBody Map<String, Object> params) {
         logger.info("params = [" + params + "]");
         PageUtils page = categoryService.queryPage(params);
-        return R.ok().put("page", page);
+        return R.ok(page);
     }
 
 
@@ -61,7 +61,7 @@ public class CategoryController {
     // @RequiresPermissions("item:category:info")
     public R info(@PathVariable("catId") Long catId) {
         CategoryEntity category = categoryService.getById(catId);
-        return R.ok().put("category", category);
+        return R.ok(category);
     }
 
     /**

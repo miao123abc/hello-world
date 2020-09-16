@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.Query;
+import com.hello.commons.domain.Query;
 import com.hello.item.dao.CategoryDao;
 import com.hello.item.entity.CategoryEntity;
 import com.hello.item.service.CategoryService;
@@ -23,13 +23,9 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     public PageUtils queryPage(Map<String, Object> params) {
         IPage<CategoryEntity> page = this.page(
                 new Query<CategoryEntity>().getPage(params),
-                new QueryWrapper<CategoryEntity>()
+                new QueryWrapper<>()
         );
         return new PageUtils(page);
-//        PageHelper.startPage(1, 10);
-//        List<CategoryEntity> entities = list();
-//        PageInfo<CategoryEntity> pageInfo = new PageInfo<>(entities);
-//        return new PageUtils(pageInfo.getList(), (int) pageInfo.getTotal(), pageInfo.getPageSize(), pageInfo.getPageNum());
     }
 
     @Override

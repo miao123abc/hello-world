@@ -1,19 +1,14 @@
 package com.hello.item.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
+import com.hello.commons.domain.R;
+import com.hello.commons.utils.PageUtils;
 import com.hello.item.entity.SkuInfoEntity;
 import com.hello.item.service.SkuInfoService;
-import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.Map;
 
 
 
@@ -38,7 +33,7 @@ public class SkuInfoController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = skuInfoService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok(page);
     }
 
 
@@ -50,7 +45,7 @@ public class SkuInfoController {
     public R info(@PathVariable("skuId") Long skuId){
 		SkuInfoEntity skuInfo = skuInfoService.getById(skuId);
 
-        return R.ok().put("skuInfo", skuInfo);
+        return R.ok(skuInfo);
     }
 
     /**

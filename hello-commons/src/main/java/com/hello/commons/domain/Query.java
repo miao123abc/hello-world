@@ -6,11 +6,12 @@
  * 版权所有，侵权必究！
  */
 
-package com.hello.commons.utils;
+package com.hello.commons.domain;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.hello.commons.utils.Constant;
 import com.hello.commons.xss.SQLFilter;
 import org.apache.commons.lang.StringUtils;
 
@@ -33,10 +34,10 @@ public class Query<T> {
         long limit = 10;
 
         if (params.get(Constant.PAGE) != null) {
-            curPage = Long.parseLong((String) params.get(Constant.PAGE));
+            curPage = Long.parseLong(params.get(Constant.PAGE).toString());
         }
         if (params.get(Constant.LIMIT) != null) {
-            limit = Long.parseLong((String) params.get(Constant.LIMIT));
+            limit = Long.parseLong(params.get(Constant.LIMIT).toString());
         }
 
         //分页对象

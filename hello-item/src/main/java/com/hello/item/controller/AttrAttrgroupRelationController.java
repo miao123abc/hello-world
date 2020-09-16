@@ -1,7 +1,7 @@
 package com.hello.item.controller;
 
+import com.hello.commons.domain.R;
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
 import com.hello.item.entity.AttrAttrgroupRelationEntity;
 import com.hello.item.service.AttrAttrgroupRelationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.Map;
-
 
 
 /**
@@ -33,9 +32,8 @@ public class AttrAttrgroupRelationController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = attrAttrgroupRelationService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok(page);
     }
-
 
     /**
      * 信息
@@ -45,7 +43,7 @@ public class AttrAttrgroupRelationController {
     public R info(@PathVariable("id") Long id){
 		AttrAttrgroupRelationEntity attrAttrgroupRelation = attrAttrgroupRelationService.getById(id);
 
-        return R.ok().put("attrAttrgroupRelation", attrAttrgroupRelation);
+        return R.ok(attrAttrgroupRelation);
     }
 
     /**

@@ -1,7 +1,7 @@
 package com.hello.item.controller;
 
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
+import com.hello.commons.domain.R;
 import com.hello.item.entity.AttrGroupEntity;
 import com.hello.item.service.AttrGroupService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,7 @@ public class AttrGroupController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = attrGroupService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok(page);
     }
 
 
@@ -45,7 +45,7 @@ public class AttrGroupController {
     public R info(@PathVariable("attrGroupId") Long attrGroupId){
 		AttrGroupEntity attrGroup = attrGroupService.getById(attrGroupId);
 
-        return R.ok().put("attrGroup", attrGroup);
+        return R.ok(attrGroup);
     }
 
     /**

@@ -1,7 +1,7 @@
 package com.hello.item.controller;
 
 import com.hello.commons.utils.PageUtils;
-import com.hello.commons.utils.R;
+import com.hello.commons.domain.R;
 import com.hello.item.entity.SpuInfoDescEntity;
 import com.hello.item.service.SpuInfoDescService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,7 @@ public class SpuInfoDescController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = spuInfoDescService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok(page);
     }
 
 
@@ -45,7 +45,7 @@ public class SpuInfoDescController {
     public R info(@PathVariable("spuId") Long spuId){
 		SpuInfoDescEntity spuInfoDesc = spuInfoDescService.getById(spuId);
 
-        return R.ok().put("spuInfoDesc", spuInfoDesc);
+        return R.ok(spuInfoDesc);
     }
 
     /**
