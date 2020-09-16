@@ -7,7 +7,10 @@ import com.hello.item.service.CategoryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;
 import java.util.List;
@@ -45,8 +48,8 @@ public class CategoryController {
     @RequestMapping("/list")
     // @RequiresPermissions("item:category:list")
     public R list(@RequestBody Map<String, Object> params) {
-        PageUtils page = categoryService.queryPage(params);
         logger.info("params = [" + params + "]");
+        PageUtils page = categoryService.queryPage(params);
         return R.ok().put("page", page);
     }
 
