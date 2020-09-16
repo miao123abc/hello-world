@@ -8,8 +8,10 @@ import com.hello.commons.domain.Query;
 import com.hello.item.dao.AttrGroupDao;
 import com.hello.item.entity.AttrGroupEntity;
 import com.hello.item.service.AttrGroupService;
+import com.hello.item.vo.SpuItemAttrGroupVO;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -24,6 +26,11 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public List<SpuItemAttrGroupVO> getAttrGroupWithAttrsBySpuIdAndCatalogId(Long spuId, Long catalogId) {
+        return this.baseMapper.getAttrGroupWithAttrsBySpuIdAndCatalogId(spuId, catalogId);
     }
 
 }

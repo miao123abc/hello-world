@@ -53,7 +53,7 @@ public class PageConfig {
             hashMap.put("totalCount", pageInfo.getTotal());
             hashMap.put("totalPageCount", pageInfo.getPages());
             hashMap.put("info", data);
-            return R.ok().setData(hashMap);
+            return R.ok(hashMap);
         }
         return result;
     }

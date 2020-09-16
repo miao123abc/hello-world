@@ -1,4 +1,4 @@
-package com.hello.item.config;
+package com.hello.commons.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("com.hello.item.dao")
+@MapperScan("com.hello.*.dao")
 public class MyBatisPlusConfig {
 
     @Bean

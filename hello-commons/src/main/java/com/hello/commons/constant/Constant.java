@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.hello.commons.utils;
+package com.hello.commons.constant;
 
 /**
  * 常量

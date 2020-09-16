@@ -8,8 +8,11 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
     gateway:
+      discovery:
+        locator:
+          enabled: true
       routes:
-        - id: baiduTest
+        - id: baidu_route
           uri: http://www.baidu.com
           predicates:
 # 请求参数包含baid.(正则)的断言路由：例http://localhost:8888/s?url=baidu会直接路由到配置的uri

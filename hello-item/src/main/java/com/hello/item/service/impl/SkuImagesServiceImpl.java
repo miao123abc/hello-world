@@ -1,16 +1,17 @@
 package com.hello.item.service.impl;
 
-import org.springframework.stereotype.Service;
-import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hello.commons.utils.PageUtils;
 import com.hello.commons.domain.Query;
-
+import com.hello.commons.utils.PageUtils;
 import com.hello.item.dao.SkuImagesDao;
 import com.hello.item.entity.SkuImagesEntity;
 import com.hello.item.service.SkuImagesService;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Map;
 
 
 @Service("skuImagesService")
@@ -24,6 +25,11 @@ public class SkuImagesServiceImpl extends ServiceImpl<SkuImagesDao, SkuImagesEnt
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public List<SkuImagesEntity> getImagesBySkuId(Long skuId) {
+        return list(new QueryWrapper<SkuImagesEntity>().eq("sku_id", skuId));
     }
 
 }

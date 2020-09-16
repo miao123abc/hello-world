@@ -11,7 +11,7 @@ package com.hello.commons.domain;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hello.commons.utils.Constant;
+import com.hello.commons.constant.Constant;
 import com.hello.commons.xss.SQLFilter;
 import org.apache.commons.lang.StringUtils;
 

@@ -4,8 +4,7 @@ import com.hello.commons.domain.R;
 import com.hello.commons.utils.PageUtils;
 import com.hello.item.entity.CategoryEntity;
 import com.hello.item.service.CategoryService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,8 +25,8 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("category")
+@Slf4j
 public class CategoryController {
-    private static final Logger logger = LoggerFactory.getLogger(CategoryController.class);
     @Autowired
     private CategoryService categoryService;
 
@@ -48,7 +47,7 @@ public class CategoryController {
     @RequestMapping("/list")
     // @RequiresPermissions("item:category:list")
     public R list(@RequestBody Map<String, Object> params) {
-        logger.info("params = [" + params + "]");
+        log.info("params = [" + params + "]");
         PageUtils page = categoryService.queryPage(params);
         return R.ok(page);
     }
