@@ -6,13 +6,10 @@ import com.hello.item.vo.SkuItemVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.concurrent.ExecutionException;
 
 @RestController
 @RefreshScope
@@ -31,7 +28,7 @@ public class ItemController {
     }
 
     @GetMapping("/{skuId}")
-    public R item(@PathVariable("skuId") Long skuId) {
+    public R item(@PathVariable("skuId") Long skuId) throws Exception {
         SkuItemVO skuItemVO = skuInfoService.item(skuId);
         return R.ok(skuItemVO);
     }

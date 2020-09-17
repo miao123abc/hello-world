@@ -9,10 +9,10 @@
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>hello-item</artifactId>
+    <artifactId>hello-ware</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hello-item</name>
-    <description>hello商品</description>
+    <name>hello-ware</name>
+    <description>库存服务</description>
 
     <dependencies>
         <dependency>
@@ -22,14 +22,20 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
