@@ -1,10 +1,2 @@
 server:
   port: 9001
-spring:
-  application:
-    name: hello-user
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-        namespace: 076bf92f-eaf0-41cf-a50f-a763e13b1e70
