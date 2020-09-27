@@ -27,16 +27,16 @@ public class R<T> {
     private T data;
 
     public R() {
-        this.code = CodeEnum.SUCCESS.getCode();
-        this.msg = CodeEnum.SUCCESS.getMsg();
     }
 
-    public static R ok() {
-        return new R();
+    public static <T> R<T> ok() {
+        R<T> r = new R<>();
+        r.setCode(CodeEnum.SUCCESS.getCode()).setMsg(CodeEnum.SUCCESS.getMsg());
+        return r;
     }
 
     public static <T> R ok(T data) {
-        R<T> r = new R<>();
+        R<T> r = ok();
         r.setData(data);
         return r;
     }
@@ -50,7 +50,9 @@ public class R<T> {
     }
 
     public static R error(int code, String msg) {
-        return new R().setCode(code).setMsg(msg);
+        R r = new R();
+        r.setCode(code).setMsg(msg);
+        return r;
     }
 
     public Integer getCode() {
@@ -83,7 +85,6 @@ public class R<T> {
 //        String s = JSON.toJSONString(data);
 //        return JSON.parseObject(s, typeReference);
 //    }
-
     public R setData(T data) {
         this.data = data;
         return this;

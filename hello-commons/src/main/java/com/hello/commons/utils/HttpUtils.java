@@ -1,4 +1,4 @@
-package com.hello.user.util;
+package com.hello.commons.utils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.HttpResponse;

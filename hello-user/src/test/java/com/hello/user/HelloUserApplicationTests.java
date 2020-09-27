@@ -5,6 +5,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
@@ -13,6 +15,8 @@ public class HelloUserApplicationTests {
 
     @Autowired
     private SMSComponent smsComponent;
+    @Autowired
+    private StringRedisTemplate redisTemplate;
 
     @Test
     public void contextLoads() {
@@ -20,7 +24,15 @@ public class HelloUserApplicationTests {
 
     @Test
     public void testSms(){
-        smsComponent.sendSMSCode("211", "23");
+        smsComponent.sendSMSCode("15732687236", "1589");
+    }
+
+    @Test
+    public void testRedis(){
+        ValueOperations<String, String> ops = redisTemplate.opsForValue();
+        ops.set("a", "B");
+
+        System.out.println(ops.get("a"));
     }
 
 }

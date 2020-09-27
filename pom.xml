@@ -17,11 +17,12 @@
 
     <modules>
         <module>hello-commons</module>
+        <module>hello-gateway</module>
         <module>hello</module>
         <module>hello-user</module>
         <module>hello-item</module>
-        <module>hello-gateway</module>
         <module>hello-ware</module>
+        <module>hello-order</module>
     </modules>
 
     <properties>
