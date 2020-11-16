@@ -1,5 +1,12 @@
 package com.hello.user.component;
 
+import com.aliyuncs.CommonRequest;
+import com.aliyuncs.CommonResponse;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.IAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.http.MethodType;
+import com.aliyuncs.profile.DefaultProfile;
 import com.hello.commons.utils.HttpUtils;
 import lombok.Data;
 import org.apache.http.HttpResponse;
@@ -16,6 +23,30 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "spring.config.sms")
 public class SMSComponent {
+
+    private String accessKeyId;
+    private String accessSecret;
+
+    public void sendSMS(){
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", accessKeyId, accessSecret);
+        IAcsClient client = new DefaultAcsClient(profile);
+
+        CommonRequest request = new CommonRequest();
+        request.setSysMethod(MethodType.POST);
+        request.setSysDomain("dysmsapi.aliyuncs.com");
+        request.setSysVersion("2017-05-25");
+        request.setSysAction("SendSms");
+        request.putQueryParameter("RegionId", "cn-hangzhou");
+        request.putQueryParameter("PhoneNumbers", "15900000000");
+        request.putQueryParameter("SignName", "阿里云");
+        request.putQueryParameter("TemplateCode", "SMS_153055065");
+            try {
+            CommonResponse response = client.getCommonResponse(request);
+            System.out.println(response.getData());
+        } catch (ClientException e) {
+            e.printStackTrace();
+        }
+    }
 
     private String host;
     private String path;

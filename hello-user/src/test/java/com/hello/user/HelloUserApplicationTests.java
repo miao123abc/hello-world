@@ -24,7 +24,9 @@ public class HelloUserApplicationTests {
 
     @Test
     public void testSms(){
-        smsComponent.sendSMSCode("15732687236", "1589");
+//        smsComponent.sendSMSCode("15732687236", "1589");
+
+        smsComponent.sendSMS();
     }
 
     @Test

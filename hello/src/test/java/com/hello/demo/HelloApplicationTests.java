@@ -7,14 +7,85 @@ import com.hello.demo.leetcode.sort.*;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @SpringBootTest
 public class HelloApplicationTests {
 
 //    @Autowired
 //    private IArraySort iArraySort;
+
+    @Test
+    public void testStream() {
+        ArrayList<Map<String, Integer>> list = new ArrayList<>();
+        HashMap<String, Integer> hashMap1 = new HashMap<>();
+        hashMap1.put("id", 2);
+        hashMap1.put("sort", 1);
+        list.add(hashMap1);
+
+        HashMap<String, Integer> hashMap2 = new HashMap<>();
+        hashMap2.put("id", 1);
+        hashMap2.put("sort", 0);
+        list.add(hashMap2);
+
+        //多条件正反 排序翻转
+        List<Map<String, Integer>> collect = list.stream()
+                .sorted(Comparator.comparingInt((Map<String, Integer> item) -> item.get("id"))
+                .thenComparing((Map<String, Integer> item) -> item.get("sort"), Comparator.reverseOrder()))
+                .collect(Collectors.toList());
+        System.out.println("collect = " + collect);
+
+        //获取列表最大
+        Optional<Integer> optional = list.stream().map(item -> item.get("sort")).max(Integer::compareTo);
+        int maxSort = 0;
+        if (optional.isPresent()) maxSort = optional.get();
+        System.out.println("maxSort = " + (maxSort + 1));
+
+        List<HashMap<String, Object>> agentGroupList = new ArrayList<>();
+        HashMap<String, Object> map1 = new HashMap<>();
+        map1.put("userId", 1);
+        map1.put("agentIdentity", 1);
+        agentGroupList.add(map1);
+        agentGroupList.add(map1);
+        agentGroupList.add(map1);
+
+        HashMap<String, Object> map2 = new HashMap<>();
+        map2.put("userId", 1);
+        map2.put("agentIdentity", 2);
+        agentGroupList.add(map2);
+
+        //分组统计
+        Map<Object, Map<Object, Long>> map = agentGroupList.stream()
+                .collect(Collectors.groupingBy(item -> item.get("userId"),
+                        Collectors.groupingBy(item -> item.get("agentIdentity"),
+                                Collectors.counting())));
+        System.out.println("userId = " + map);
+        Long aLong = map.get(1).get(1);
+        System.out.println("aLong = " + aLong);
+    }
+
+    @Test
+    public void test() {
+        Chooser chooser = new Chooser(Arrays.asList(1, 2, 3, 4, 5, 6));
+        System.out.println(chooser.choose());
+
+        Random random = new Random();
+        System.out.println(Math.abs(random.nextInt()) % 6);
+    }
+
+    static class Chooser<T> {
+        private final List<T> choiceArray;
+
+        public Chooser(Collection<T> collection) {
+            choiceArray = new ArrayList<>(collection);
+        }
+
+        public Object choose() {
+            Random random = new Random();
+            return choiceArray.get(random.nextInt(choiceArray.size()));
+        }
+    }
 
     @Test
     public void contextLoads() {
@@ -47,7 +118,7 @@ public class HelloApplicationTests {
     }
 
     @Test
-    public void testArray(){
+    public void testArray() {
         Array0521 array0521 = new Array0521();
 
         int[] ints = array0521.twoSum(new int[]{2, 3, 4}, 6);
@@ -63,7 +134,7 @@ public class HelloApplicationTests {
         int maxSubArray = array0521.maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4});
         System.out.println("maxSubArray = " + maxSubArray);
 
-        System.out.println("能够偷窃到的最高金额: " + array0521.rob(new int[]{2,1,1,2}));
+        System.out.println("能够偷窃到的最高金额: " + array0521.rob(new int[]{2, 1, 1, 2}));
 
         int[] ints3 = {1, 2, 1};
         int len = array0521.removeDuplicates(ints3);
@@ -78,14 +149,14 @@ public class HelloApplicationTests {
     }
 
     @Test
-    public void testBinary(){
+    public void testBinary() {
         Binary0522 binary0522 = new Binary0522();
 
         System.out.println("汉明重量：" + binary0522.hanmingWeight(11));
     }
 
     @Test
-    public void testSqrt(){
+    public void testSqrt() {
         MySqrt0511 mySqrt0511 = new MySqrt0511();
 
         System.out.println(mySqrt0511.mySqrt(16));
@@ -94,15 +165,15 @@ public class HelloApplicationTests {
     }
 
     @Test
-    public void testRule(){
+    public void testRule() {
         Rule0519 rule0519 = new Rule0519();
         List<List<Integer>> generate = rule0519.generate(3);
         System.out.println("杨辉三角前n行 = " + generate);
 
         System.out.println("杨辉三角当前行：" + rule0519.getRow(2));
 
-        System.out.println("单次购买最大利润：" + rule0519.maxProfit(new int[]{7,1,5,3,6,4}));
-        System.out.println("多次购买最大利润：" + rule0519.maxProfit2(new int[]{7,1,5,3,6,4}));
+        System.out.println("单次购买最大利润：" + rule0519.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
+        System.out.println("多次购买最大利润：" + rule0519.maxProfit2(new int[]{7, 1, 5, 3, 6, 4}));
 
         System.out.println("正整数对应Excel 表中相对应的列名称：" + rule0519.convertToTitle(53));
         System.out.println("列名称对应Excel 表中相对应的正整数：" + rule0519.titleToNumber("BA"));
@@ -126,7 +197,7 @@ public class HelloApplicationTests {
     }
 
     @Test
-    public void testString(){
+    public void testString() {
         String0520 string0520 = new String0520();
         System.out.println("是否是回文串：" + string0520.isPalindrome("A man, a plan, a canal: Panama"));
 
@@ -136,7 +207,7 @@ public class HelloApplicationTests {
 
         System.out.println("两个字符串是否同构：" + string0520.isIsomorphic("ab", "aa"));
 
-        String s = string0520.longestCommonPrefix(new String[]{"flower","flow","flight"});
+        String s = string0520.longestCommonPrefix(new String[]{"flower", "flow", "flight"});
         System.out.println("s = " + s);
 
         boolean valid = string0520.isValid("}){}");
@@ -154,7 +225,7 @@ public class HelloApplicationTests {
     }
 
     @Test
-    public void testListNode(){
+    public void testListNode() {
         StructureListNode structureListNode = new StructureListNode();
 
         ListNode head = new ListNode(1);
@@ -168,10 +239,10 @@ public class HelloApplicationTests {
     }
 
     @Test
-    public void testTree(){
+    public void testTree() {
         Tree0512 tree0512 = new Tree0512();
 
-        int[] ints = {-10,-3,0,5,9};
+        int[] ints = {-10, -3, 0, 5, 9};
         System.out.println("有序数组 -> 高度平衡二叉搜索树：" + tree0512.sortedArrayToBST(ints));
 
         TreeNode treeNode = tree0512.buildTree(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});

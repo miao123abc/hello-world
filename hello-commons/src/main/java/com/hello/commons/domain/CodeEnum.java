@@ -46,9 +46,9 @@ public enum CodeEnum {
     NO_STOCK_EXCEPTION(22000, "商品库存不足")
     ;
 
-    private int code;
+    private final int code;
 
-    private String msg;
+    private final String msg;
 
     CodeEnum(int code, String msg){
         this.code = code;
