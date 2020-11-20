@@ -35,22 +35,22 @@ public class R<T> {
         return r;
     }
 
-    public static <T> R ok(T data) {
+    public static <T> R<T> ok(T data) {
         R<T> r = ok();
         r.setData(data);
         return r;
     }
 
-    public static R error() {
-        return error(CodeEnum.BASIC_EXCEPTION.getCode(), CodeEnum.BASIC_EXCEPTION.getMsg());
+    public static <T> R<T> error() {
+        return error(CodeEnum.BASIC_EXCEPTION.getMsg());
     }
 
-    public static R error(String msg) {
+    public static <T> R<T> error(String msg) {
         return error(CodeEnum.BASIC_EXCEPTION.getCode(), msg);
     }
 
-    public static R error(int code, String msg) {
-        R r = new R();
+    public static <T> R<T> error(int code, String msg) {
+        R<T> r = new R<>();
         r.setCode(code).setMsg(msg);
         return r;
     }
@@ -59,7 +59,7 @@ public class R<T> {
         return code;
     }
 
-    public R setCode(Integer code) {
+    public R<T> setCode(Integer code) {
         this.code = code;
         return this;
     }
@@ -68,7 +68,7 @@ public class R<T> {
         return msg;
     }
 
-    public R setMsg(String msg) {
+    public R<T> setMsg(String msg) {
         this.msg = msg;
         return this;
     }
@@ -85,7 +85,7 @@ public class R<T> {
 //        String s = JSON.toJSONString(data);
 //        return JSON.parseObject(s, typeReference);
 //    }
-    public R setData(T data) {
+    public R<T> setData(T data) {
         this.data = data;
         return this;
     }
