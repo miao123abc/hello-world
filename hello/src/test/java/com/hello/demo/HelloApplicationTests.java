@@ -4,6 +4,7 @@ import com.hello.demo.leetcode.*;
 import com.hello.demo.leetcode.domain.ListNode;
 import com.hello.demo.leetcode.domain.TreeNode;
 import com.hello.demo.leetcode.sort.*;
+import javafx.util.Pair;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -15,6 +16,19 @@ public class HelloApplicationTests {
 
 //    @Autowired
 //    private IArraySort iArraySort;
+
+    @Test
+    public void testStream2() {
+        List<Pair<String, Double>> pairArrayList = new ArrayList<>(3);
+        pairArrayList.add(new Pair<>("version", 12.10));
+        pairArrayList.add(new Pair<>("version", 12.19));
+        pairArrayList.add(new Pair<>("version", 6.28));
+        Map<String, Double> map = pairArrayList.stream().collect(
+                // 生成的 map 集合中只有一个键值对：{version=6.28}
+                Collectors.toMap(Pair::getKey, Pair::getValue, (v1, v2) -> v2));
+
+        System.out.println("map = " + map);
+    }
 
     @Test
     public void testStream() {

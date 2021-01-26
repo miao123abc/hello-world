@@ -16,6 +16,14 @@
 
     <dependencies>
         <dependency>
+            <groupId>xxx</groupId>
+            <artifactId>taotao</artifactId>
+            <version>v0.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/taobao-sdk-java-auto_1599556237111-20201229.jar</systemPath>
+        </dependency>
+
+        <dependency>
             <groupId>com.hello</groupId>
             <artifactId>hello-commons</artifactId>
             <version>0.0.1-SNAPSHOT</version>

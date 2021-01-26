@@ -21,6 +21,7 @@ public class HelloStream {
         }
     }
 
+
     public static void main(String[] args) {
         Person p1 = new Person("Bob", 21, Arrays.asList("English", "French", "German"));
         Person p2 = new Person("Alice", 33, Arrays.asList("English", "Chinese", "Spanish"));
