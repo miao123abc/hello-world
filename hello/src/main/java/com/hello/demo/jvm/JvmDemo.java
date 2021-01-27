@@ -9,7 +9,8 @@ public class JvmDemo {
 
 //        byte[] bytes = new byte[20 * 1024 * 1024];
 
-        //OOM 对应jvm参数设置 -Xms10M -Xmx10M -XX:+PrintGCDetails（打印GC信息）
+        //OOM
+        //对应jvm参数设置 -Xms10M -Xmx10M -XX:+PrintGCDetails（打印GC信息）
         String str = "www";
         while (true){
             str += str + new Random().nextInt(88888) + new Random().nextInt(99999);
